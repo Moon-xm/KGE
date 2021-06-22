@@ -552,7 +552,7 @@ Welcome to join our small WeChat group via email, to learn and talk about KGE.
 
 - <a name="TransT"></a> **(TransT)** Shiheng Ma, Jianhui Ding, Weijia Jia, Kun Wang, Minyi Guo. "**TransT: Type-Based Multiple Embedding Representations for Knowledge Graph Completion**". **ECML/PKDD 2017**. [paper](https://link.springer.com/chapter/10.1007%2F978-3-319-71249-9_43)
 
-##### WWWW
+##### WWW
 
 - <a name="ORC"></a> **(ORC)** Wen Zhang. "**Knowledge Graph Embedding with Diversity of Structures**". **WWW 2017**. [paper](https://dl.acm.org/doi/10.1145/3041021.3053380)
 
@@ -1057,23 +1057,19 @@ Welcome to join our small WeChat group via email, to learn and talk about KGE.
 
 - <a name="ELP"></a> **(ELP)**	Russa Biswas. "**Embedding based Link Prediction for Knowledge Graph Completion**". **CIKM 2020**. [paper](https://dl.acm.org/doi/10.1145/3340531.3418512)
 
+- <a name="GAEAT"></a> **(GAEAT)** Yanfei Han, Quan Fang, Jun Hu, Shengsheng Qian, Changsheng Xu. "**GAEAT: Graph Auto-Encoder Attention Networks for Knowledge Graph Completion**". **CIKM 2020**. [paper](https://dl.acm.org/doi/10.1145/3340531.3412148)
+
+- <a name="LCWA"></a> **(LCWA)** Iti Bansal, Sudhanshu Tiwari, Carlos R. Rivero. "**The Impact of Negative Triple Generation Strategies and Anomalies on Knowledge Graph Completion**". **CIKM 2020**. [paper](https://dl.acm.org/doi/10.1145/3340531.3412023) [code](https://github.com/crrivero/ImpactNegativeTriples)
+
 - <a name="NagE"></a> **(NagE)** Tong Yang, Long Sha, Pengyu Hong. "**NagE: Non-Abelian Group Embedding for Knowledge Graphs**". **CIKM 2020**. [paper](https://dl.acm.org/doi/10.1145/3340531.3411875)
 
 - <a name="NASE"></a> **(NASE)** Xiaoyu Kou, Bingfeng Luo, Huang Hu, Yan Zhang. "**NASE: Learning Knowledge Graph Embedding for Link Prediction via Neural Architecture Search**". **CIKM 2020**. [paper](https://dl.acm.org/doi/10.1145/3340531.3412104) [code](https://github.com/KXY-PUBLIC/NASE)
 
+- <a name="Rotate3D"></a> **(Rotate3D)**  Chang Gao, Chengjie Sun, Lili Shan, Lei Lin, Mingjiang Wang. "**Rotate3D: Representing Relations as Rotations in Three-Dimensional Space for Knowledge Graph Embedding**". **CIKM 2020**. [paper](https://dl.acm.org/doi/10.1145/3340531.3411889) [code](https://github.com/gao-xiao-bai/Rotate3D-Representing-Relations-as-Rotations-in-Three-Dimensional-Space-for-KG-Embedding)
+
 - <a name="SLRE"></a> **(SLRE)** Shu Guo, Lin Li, Zhen Hui, Lingshuai Meng, Bingnan Ma, Wei Liu, Lihong Wang, Haibin Zhai, Hong Zhang. "**Knowledge Graph Embedding Preserving Soft Logical Regularity**". **CIKM 2020**. [paper](https://dl.acm.org/doi/10.1145/3340531.3412055) [code](https://github.com/StudyGroup-lab/SLRE)
 
-- Iti Bansal, Sudhanshu Tiwari, Carlos R. Rivero. "**The Impact of Negative Triple Generation Strategies and Anomalies on Knowledge Graph Completion**". **CIKM 2020**. [paper](https://dl.acm.org/doi/10.1145/3340531.3412023) [code](https://github.com/crrivero/ImpactNegativeTriples)
-
-- Hao Tian, Reza Zafarani. "**Exploiting Common Neighbor Graph for Link Prediction**". **CIKM 2020**. [paper](https://dl.acm.org/doi/10.1145/3340531.3417464)
-
-- Chang Gao, Chengjie Sun, Lili Shan, Lei Lin, Mingjiang Wang. "**Rotate3D: Representing Relations as Rotations in Three-Dimensional Space for Knowledge Graph Embedding**". **CIKM 2020**. [paper](https://dl.acm.org/doi/10.1145/3340531.3411889) [code](https://github.com/gao-xiao-bai/Rotate3D-Representing-Relations-as-Rotations-in-Three-Dimensional-Space-for-KG-Embedding)
-
-- Yanfei Han, Quan Fang, Jun Hu, Shengsheng Qian, Changsheng Xu. "**GAEAT: Graph Auto-Encoder Attention Networks for Knowledge Graph Completion**". **CIKM 2020**. [paper](https://dl.acm.org/doi/10.1145/3340531.3412148)
-
-- Julien Leblay, Melisachew Wudage Chekol, Xin Liu. "**Towards Temporal Knowledge Graph Embeddings with Arbitrary Time Precision**". **CIKM 2020**. [paper](https://dl.acm.org/doi/10.1145/3340531.3412028)
-
-- Garima Gaur, Arnab Bhattacharya, Srikanta Bedathur. "**How and Why is An Answer (Still) Correct? Maintaining Provenance in Dynamic Knowledge Graphs**". **CIKM 2020**. [paper](https://dl.acm.org/doi/10.1145/3340531.3411958)
+- <a name="ToKE"></a> **(ToKE)** Julien Leblay, Melisachew Wudage Chekol, Xin Liu. "**Towards Temporal Knowledge Graph Embeddings with Arbitrary Time Precision**". **CIKM 2020**. [paper](https://dl.acm.org/doi/10.1145/3340531.3412028)
 
 ##### WSDM
 
@@ -1103,9 +1099,9 @@ Welcome to join our small WeChat group via email, to learn and talk about KGE.
 
 - <a name="HINGE"></a> **(HINGE)** Paolo Rosso, Dingqi Yang, Philippe Cudré-Mauroux. "**Beyond Triplets: Hyper-Relational Knowledge Graph Embedding for Link Prediction**". **WWW 2020**. [paper](https://doi.org/10.1145/3366423.3380257) [code](https://github.com/eXascaleInfolab/HINGE_code)
 
-- Unmesh Joshi, Jacopo Urbani. "**Searching for Embeddings in a Haystack: Link Prediction on Knowledge Graphs with Subgraph Pruning**". **WWW 2020**. [paper](https://doi.org/10.1145/3366423.3380043)
+- <a name="Subgraph"></a> **(Subgraph)** Unmesh Joshi, Jacopo Urbani. "**Searching for Embeddings in a Haystack: Link Prediction on Knowledge Graphs with Subgraph Pruning**". **WWW 2020**. [paper](https://doi.org/10.1145/3366423.3380043)
 
-- <a name="TDGNN"></a> Liang Qu, Huaisheng Zhu, Qiqi Duan, Yuhui Shi. "**Continuous-Time Link Prediction via Temporal Dependent Graph Neural Network**". **WWW 2020**. [paper](https://dl.acm.org/doi/10.1145/3366423.3380073) [code](https://github.com/Leo-Q-316/TDGNN)
+- <a name="TDGNN"></a> **(TDGNN)** Liang Qu, Huaisheng Zhu, Qiqi Duan, Yuhui Shi. "**Continuous-Time Link Prediction via Temporal Dependent Graph Neural Network**". **WWW 2020**. [paper](https://dl.acm.org/doi/10.1145/3366423.3380073) [code](https://github.com/Leo-Q-316/TDGNN)
 
 ### 2021
 
@@ -1119,9 +1115,13 @@ Welcome to join our small WeChat group via email, to learn and talk about KGE.
 
 - <a name="TrustE"></a> **(TrustE)** Yu Zhao, Zhiquan Li, Wei Deng, Ruobing Xie, Qing Li. "**Learning entity type structured embeddings with trustworthiness on noisy knowledge graphs**". **Knowl. Based Syst. 2021**. **Impact 5.921**. [paper](https://www.sciencedirect.com/science/article/abs/pii/S0950705120307590?via%3Dihub)
 
+- Zikang Wang, Linjing Li, Daniel Zeng, Xiaofei Wu. "**Incorporating prior knowledge from counterfactuals into knowledge graph reasoning**". **Knowl. Based Syst. 2021**. **Impact 5.921**. [paper](https://www.sciencedirect.com/science/article/abs/pii/S0950705121002987?via%3Dihub)
+
 ##### Neural Networks
 
 - <a name="DAPath"></a> **(DAPath)** Prayag Tiwari, Hongyin Zhu, Hari Mohan Pandey. "**DAPath: Distance-aware knowledge graph reasoning based on deep reinforcement learning**". **Neural Networks 2021**. **Impact 5.5337**. [paper](https://www.sciencedirect.com/science/article/abs/pii/S089360802030410X?via%3Dihub)
+
+- <a name="LSUs"></a> **(LSUs)**  Zhao Zhang, Fuzhen Zhuang, Meng Qu, Zheng-Yu Niu, Hui Xiong, Qing He. "**Knowledge graph embedding with shared latent semantic units**". **Neural Networks 2021**. **Impact 5.5337**. [paper](https://www.sciencedirect.com/science/article/abs/pii/S0893608021000551?via%3Dihub)
 
 ##### Expert Systems with Applications
 
@@ -1151,49 +1151,71 @@ Welcome to join our small WeChat group via email, to learn and talk about KGE.
 
 ##### ICLR
 
-- Interpreting Knowledge Graph Relation Representation from Word Embeddings
+- <a name="PMI"></a> **(PMI)** Carl Allen, Ivana Balazevic, Timothy Hospedales. "**Interpreting Knowledge Graph Relation Representation from Word Embeddings**". **ICLR 2021**. [paper](https://iclr.cc/virtual/2021/poster/2656)
 
-- RNNLogic: Learning Logic Rules for Reasoning on Knowledge Graphs
+- <a name="RNNLogic"></a> **(RNNLogic)** Meng Qu, Junkun Chen, Louis-Pascal A Xhonneux, Yoshua Bengio, Jian Tang. "**RNNLogic: Learning Logic Rules for Reasoning on Knowledge Graphs**". **ICLR 2021**. [paper](https://iclr.cc/virtual/2021/poster/3084) [code](https://github.com/DeepGraphLearning/RNNLogic)
 
-- Learning to Deceive Knowledge Graph Augmented Models via Targeted Perturbation
-
-- Explainable Subgraph Reasoning for Forecasting on Temporal Knowledge Graphs
+- <a name="xERTE"></a> **(xERTE)** Zhen Han, Peng Chen, Yunpu Ma, Volker Tresp. "**Explainable Subgraph Reasoning for Forecasting on Temporal Knowledge Graphs**". **ICLR 2021**. [paper](https://iclr.cc/virtual/2021/poster/3378) [code](https://github.com/TemporalKGTeam/xERTE)
 
 ##### AAAI
 
-- Type-augmented Relation Prediction in Knowledge Graphs
+- <a name="5E"></a> **(5E)** Mojtaba Nayyeri, Sahar Vahdati, Can Aykul, Jens Lehmann. "**5 Knowledge Graph Embeddings with Projective Transformations**". **AAAI 2021**. [paper](https://ojs.aaai.org/index.php/AAAI/article/view/17095)
 
-- Knowledge Graph Embeddings with Projective Transformations
+- <a name="BiQE"></a> **(BiQE)** Bhushan Kotnis, Carolin Lawrence, Mathias Niepert. "**Answering Complex Queries in Knowledge Graphs with Bidirectional Sequence Encoders**". **AAAI 2021**. [paper](https://ojs.aaai.org/index.php/AAAI/article/view/16630)
 
-- ChronoR: Rotation Based Temporal Knowledge Graph Embedding
+- <a name="ChronoR"></a> **(ChronoR)** Ali Sadeghian, Mohammadreza Armandpour, Anthony Colas, Daisy Zhe Wang. "**ChronoR: Rotation Based Temporal Knowledge Graph Embedding**". **AAAI 2021**. [paper](https://ojs.aaai.org/index.php/AAAI/article/view/16802) [code](https://github.com/CunchaoZ/CyGNet)
 
-- Dual Quaternion Knowledge Graph Embeddings
+- <a name="CyGNet"></a> **(CyGNet)** Cunchao Zhu, Muhao Chen, Changjun Fan, Guangquan Cheng, Yan Zhang. "**Learning from History: Modeling Temporal Knowledge Graphs with Sequential Copy-Generation Networks**". **AAAI 2021**. [paper](https://ojs.aaai.org/index.php/AAAI/article/view/16604)
 
-- GaussianPath: A Bayesian Multi-Hop Reasoning Framework for Knowledge Graph Reasoning
+- <a name="DualE"></a> **(DualE)** Zongsheng Cao, Qianqian Xu, Zhiyong Yang, Xiaochun Cao, Qingming Huang. "**Dual Quaternion Knowledge Graph Embeddings**". **AAAI 2021**. [paper](https://ojs.aaai.org/index.php/AAAI/article/view/16850)
 
-- Topology-Aware Correlations between Relations for Inductive Link Prediction in Knowledge Graphs
+- <a name="GaussianPath"></a> **(GaussianPath)** Guojia Wan, Bo Du. "**GaussianPath: A Bayesian Multi-Hop Reasoning Framework for Knowledge Graph Reasoning**". **AAAI 2021**. [paper](https://ojs.aaai.org/index.php/AAAI/article/view/16565)
 
-- PASSLEAF: A Pool-Based Semi-Supervised Learning Framework for Uncertain Knowledge Graph Embedding
+- <a name="NLSM"></a> **(NLSM)** Tony Gracious, Shubham Gupta, Arun Kanthali, Rui M. Castro, Ambedkar Dukkipati. "**Neural Latent Space Model for Dynamic Networks and Temporal Knowledge Graphs**". **AAAI 2021**. [paper](https://ojs.aaai.org/index.php/AAAI/article/view/16526)
 
-- Learning from History: Modeling Temporal Knowledge Graphs with Sequential Copy-Generation Networks
+- <a name="PASSLEAF"></a> **(PASSLEAF)** Zhu-Mu Chen, Mi-Yen Yeh, Tei-Wei Kuo. "**PASSLEAF: A Pool-bAsed Semi-Supervised LEArning Framework for Uncertain Knowledge Graph Embedding**". **AAAI 2021**. [paper](https://ojs.aaai.org/index.php/AAAI/article/view/16522)
+
+- <a name="TACT"></a> **(TACT)** Jiajun Chen, Huarui He, Feng Wu, Jie Wang. "**Topology-Aware Correlations Between Relations for Inductive Link Prediction in Knowledge Graphs**". **AAAI 2021**. [paper](https://ojs.aaai.org/index.php/AAAI/article/view/16779)
+
+- <a name="TaRP"></a> **(TaRP)** Zijun Cui, Pavan Kapanipathi, Kartik Talamadupula, Tian Gao, Qiang Ji. "**Type-augmented Relation Prediction in Knowledge Graphs**". **AAAI 2021**. [paper](https://ojs.aaai.org/index.php/AAAI/article/view/16879)
+
+- Mehrnoosh Mirtaheri. "**Relational Learning to Capture the Dynamics and Sparsity of Knowledge Graphs**". **AAAI 2021**. [paper](https://ojs.aaai.org/index.php/AAAI/article/view/17859)
+
+##### NAACL
+
+- <a name="BEUrRE"></a> **(BEUrRE)** Xuelu Chen, Michael Boratko, Muhao Chen, Shib Sankar Dasgupta, Xiang Lorraine Li, Andrew McCallum. "**Probabilistic Box Embeddings for Uncertain Knowledge Graph Reasoning**". **NAACL-HLT 2021**. [paper](https://www.aclweb.org/anthology/2021.naacl-main.68/) [code](https://github.com/stasl0217/beurre)
+
+- <a name="EDGE"></a> **(EDGE)** Saed Rezayi, Handong Zhao, Sungchul Kim, Ryan A. Rossi, Nedim Lipka, Sheng Li. "**Edge: Enriching Knowledge Graph Embeddings with External Text**". **NAACL-HLT 2021**. [paper](https://www.aclweb.org/anthology/2021.naacl-main.221/)
+
+- <a name="KRE"></a> **(KRE)** Shuai Zhang, Xi Rao, Yi Tay, Ce Zhang. "**Knowledge Router: Learning Disentangled Representations for Knowledge Graphs**". **NAACL-HLT 2021**. [paper](https://www.aclweb.org/anthology/2021.naacl-main.1/)
+
+- <a name="ProcrustEs"></a> **(ProcrustEs)** Xutan Peng, Guanyi Chen, Chenghua Lin, Mark Stevenson. "**Highly Efficient Knowledge Graph Embedding Learning with Orthogonal Procrustes Analysis**". **NAACL-HLT 2021**. [paper](https://www.aclweb.org/anthology/2021.naacl-main.187/) [code](https://github.com/Pzoom522/ProcrustEs-KGE)
+
+- <a name="RTFE"></a> **(RTFE)** Youri Xu, Haihong E, Meina Song, Wenyu Song, Xiaodong Lv, Haotian Wang, Jinrui Yang. "**RTFE: A Recursive Temporal Fact Embedding Framework for Temporal Knowledge Graph Completion**". **NAACL-HLT 2021**. [paper](https://www.aclweb.org/anthology/2021.naacl-main.451/)
+
+- <a name="TeLM"></a> **(TeLM)** Chengjin Xu, Yung-Yu Chen, Mojtaba Nayyeri, Jens Lehmann. "**Temporal Knowledge Graph Completion using a Linear Temporal Regularizer and Multivector Embeddings**". **NAACL-HLT 2021**. [paper](https://www.aclweb.org/anthology/2021.naacl-main.202/)
 
 ##### WWW
 
-- MulDE: Multi-teacher Knowledge Distillation for Low-dimensional Knowledge Graph Embeddings
+- Sudhanshu Tiwari, Iti Bansal, Carlos R. Rivero. "**Revisiting the Evaluation Protocol of Knowledge Graph Completion Methods for Link Prediction**". [paper](https://dl.acm.org/doi/10.1145/3442381.3449856)
 
-- Knowledge Embedding Based Graph Convolutional Network
+- Paolo Rosso, Dingqi Yang, Natalia Ostapuk, Philippe Cudré-Mauroux. "**RETA: A Schema-Aware, End-to-End Solution for Instance Completion in Knowledge Graphs**". [paper](https://dl.acm.org/doi/10.1145/3442381.3449883)
 
-- Role-Aware Modeling for N-ary Relational Knowledge Bases
+- Kai Wang, Yu Liu, Qian Ma, Quan Z. Sheng. "**MulDE: Multi-teacher Knowledge Distillation for Low-dimensional Knowledge Graph Embeddings**". [paper](https://dl.acm.org/doi/10.1145/3442381.3449898)
 
-- Efficient Knowledge Graph Embedding without Negative Sampling
+- Zelong Li, Jianchao Ji, Zuohui Fu, Yingqiang Ge, Shuyuan Xu, Chong Chen, Yongfeng Zhang. "**Efficient Non-Sampling Knowledge Graph Embedding**". [paper](https://dl.acm.org/doi/10.1145/3442381.3449859) [code](https://github.com/rutgerswiselab/NS-KGE)
+		
+- Bo Wang, Tao Shen, Guodong Long, Tianyi Zhou, Ying Wang, Yi Chang. "**Structure-Augmented Text Representation Learning for Efficient Knowledge Graph Completion**". [paper](https://dl.acm.org/doi/10.1145/3442381.3450043) [code](https://github.com/wangbo9719/StAR_KGC)
 
-- MQuadE: a Unified Model for Knowledge Fact Embedding
+- Huijuan Wang, Shuangyin Li, Rong Pan. "**An Adversarial Transfer Network for Knowledge Representation Learning**". [paper](https://dl.acm.org/doi/10.1145/3442381.3450064) [code](https://github.com/LemonNoel/ATransN)
+		
+- Shen Wang, Xiaokai Wei, Cicero Nogueira dos Santos, Zhiguo Wang, Ramesh Nallapati, Andrew O. Arnold, Bing Xiang, Philip S. Yu, Isabel F. Cruz. "**Mixed-Curvature Multi-Relational Graph Neural Network for Knowledge Graph Completion**". [paper](https://dl.acm.org/doi/10.1145/3442381.3450118)
 
-- An Adversarial Transfer Network for Knowledge Representation Learning
+- Donghan Yu, Yiming Yang, Ruohong Zhang, Yuexin Wu. "**Knowledge Embedding Based Graph Convolutional Network**". [paper](https://dl.acm.org/doi/10.1145/3442381.3449925)
 
-- Mixed-Curvature Multi-Relational Graph Neural Network for Knowledge Graph Completion
+- Yu Liu, Quanming Yao, Yong Li. "**Role-Aware Modeling for N-ary Relational Knowledge Bases**". [paper](https://dl.acm.org/doi/10.1145/3442381.3449874) [code](https://github.com/liuyuaa/RAM)
 
-- Structure-Augmented Text Representation Learning for Efficient Knowledge Graph Completion
+- Jinxing Yu, Yunfeng Cai, Mingming Sun, Ping Li. "**MQuadE: a Unified Model for Knowledge Fact Embedding**". [paper](https://dl.acm.org/doi/10.1145/3442381.3449879)
 
 ##### WSDM
 
