@@ -745,6 +745,8 @@ Welcome to join our small WeChat group via email, to learn and talk about KGE.
 
 - <a name="QuatE"></a> **(QuatE)** Shuai Zhangy, Yi Tay, Lina Yao, Qi Liu. "**Quaternion Knowledge Graph Embeddings**". **NeurIPS 2019**. [paper](http://papers.nips.cc/paper/8541-quaternion-knowledge-graph-embeddings) [code](https://github.com/cheungdaven/QuatE) :fire:
 
+- Meng Qu, Jian Tang. "**Probabilistic Logic Neural Networks for Reasoning**". **NeurIPS 2019**. [paper](https://proceedings.neurips.cc/paper/2019/hash/13e5ebb0fa112fe1b31a1067962d74a7-Abstract.html)
+
 ##### ACL
 
 - <a name="DihEdral"></a> **(DihEdral)** Canran Xu, Ruijiang Li. "**Relation Embedding with Dihedral Group in Knowledge Graph**". **ACL 2019**. [paper](https://www.aclweb.org/anthology/P19-1026/)
@@ -937,6 +939,8 @@ Welcome to join our small WeChat group via email, to learn and talk about KGE.
 
 - <a name="R2D2"></a> **(R2D2)** Marcel Hildebrandt, Jorge Andres Quintero Serna, Yunpu Ma, Martin Ringsquandl, Mitchell Joblin, Volker Tresp. "**Reasoning on Knowledge Graphs with Debate Dynamics**". **AAAI 2020**. [paper](https://aaai.org/ojs/index.php/AAAI/article/view/6600) [code](https://github.com/m-hildebrandt/R2D2)
 
+- <a name="RARL"></a> **(RARL)** Giuseppe Pirrò. "**Relatedness and TBox-Driven Rule Learning in Large Knowledge Bases**". **AAAI 2020**. [paper](https://ojs.aaai.org//index.php/AAAI/article/view/5690)
+
 - <a name="RGHAT"></a> **(RGHAT)** Zhao Zhang, Fuzhen Zhuang, Hengshu Zhu, Zhiping Shi, Hui Xiong, Qing He. "**Relational Graph Neural Network with Hierarchical Attention for Knowledge Graph Completion**". **AAAI 2020**. [paper](https://aaai.org/ojs/index.php/AAAI/article/view/6508)
 
 - <a name="Robust"></a> **(Robust)** Peru Bhardwaj. "**Towards Adversarially Robust Knowledge Graph Embeddings**". **AAAI 2020**. [paper](https://aaai.org/ojs/index.php/AAAI/article/view/7128)
@@ -945,11 +949,19 @@ Welcome to join our small WeChat group via email, to learn and talk about KGE.
 
 - <a name="SimE"></a> **(SimE)** Chaitanya Malaviya, Chandra Bhagavatula, Antoine Bosselut, Yejin Choi. "**Commonsense Knowledge Base Completion with Structural and Semantic Context**". **AAAI 2020**. [paper](https://aaai.org/ojs/index.php/AAAI/article/view/5684) :fire:
 
+- <a name="Triple2Vec"></a> **(Triple2Vec)** Valeria Fionda, Giuseppe Pirrò. "**Learning Triple Embeddings from Knowledge Graphs**". **AAAI 2020**. [paper](https://ojs.aaai.org//index.php/AAAI/article/view/5800)
+
 - <a name="ZSGAN"></a> **(ZSGAN)** Pengda Qin, Xin Wang, Wenhu Chen, Chunyun Zhang, Weiran Xu, William Yang Wang. "**Generative Adversarial Zero-Shot Relational Learning for Knowledge Graphs**". **AAAI 2020**. [paper](https://aaai.org/ojs/index.php/AAAI/article/view/6392) [code](https://github.com/Panda0406/Zero-shot-knowledge-graph-relational-learning)
 
 ##### NeurIPS
 
 - <a name="BETAE"></a> **(BETAE)** Hongyu Ren, Jure Leskovec. "**Beta Embeddings for Multi-Hop Logical Reasoning in Knowledge Graphs**". **NeurIPS 2020**. [paper](https://proceedings.neurips.cc/paper/2020/hash/e43739bba7cdb577e9e3e4e42447f5a5-Abstract.html) [code](http://snap.stanford.edu/betae/) 
+
+- <a name="BoxE"></a> **(BoxE)** Ralph Abboud, Ismail Ilkan Ceylan, Thomas Lukasiewicz, Tommaso Salvatori. "**BoxE: A Box Embedding Model for Knowledge Base Completion**". **NeurIPS 2020**. [paper](https://proceedings.neurips.cc/paper/2020/hash/6dbbe6abe5f14af882ff977fc3f35501-Abstract.html)
+
+- <a name="DURA"></a> **(DURA)** Zhanqiu Zhang, Jianyu Cai, Jie Wang. "**Duality-Induced Regularizer for Tensor Factorization Based Knowledge Graph Completion**". **NeurIPS 2020**. [paper](https://proceedings.neurips.cc/paper/2020/hash/f6185f0ef02dcaec414a3171cd01c697-Abstract.html)
+
+- <a name="EmQL"></a> **(EmQL)** Haitian Sun, Andrew O. Arnold, Tania Bedrax-Weiss, Fernando Pereira, William W. Cohen. "**Faithful Embeddings for Knowledge Base Queries**". **NeurIPS 2020**. [paper](https://proceedings.neurips.cc/paper/2020/hash/fe74074593f21197b7b7be3c08678616-Abstract.html)
 
 - <a name="GEN"></a> **(GEN)** Jinheon Baek, Dong Bok Lee, Sung Ju Hwang. "**Learning to Extrapolate Knowledge: Transductive Few-shot Out-of-Graph Link Prediction**". **NeurIPS 2020**. [paper](https://neurips.cc/virtual/2020/public/poster_0663a4ddceacb40b095eda264a85f15c.html) [code](https://github.com/JinheonBaek/GEN)
 
@@ -981,6 +993,8 @@ Welcome to join our small WeChat group via email, to learn and talk about KGE.
 
 - <a name="DArtNet"></a> **(DArtNet)** Sankalp Garg, Navodita Sharma, Woojeong Jin, Xiang Ren. "**Temporal Attribute Prediction via Joint Modeling of Multi-Relational Structure Evolution**". **IJCAI 2020**. [paper](https://www.ijcai.org/Proceedings/2020/386) [code](https://github.com/INK-USC/DArtNet)
 
+- <a name="HRL"></a> **(HRL)** Guojia Wan, Shirui Pan, Chen Gong, Chuan Zhou, Gholamreza Haffari. "**Reasoning Like Human: Hierarchical Reinforcement Learning for Knowledge Graph Reasoning**". **IJCAI 2020**. [paper](https://www.ijcai.org/proceedings/2020/267)
+
 - <a name="HypE"></a> **(HypE)** Bahare Fatemi, Perouz Taslakian, David Vázquez, David Poole. "**Knowledge Hypergraphs: Prediction Beyond Binary Relations**". **IJCAI 2020**. [paper](https://www.ijcai.org/Proceedings/2020/303) [code](https://github.com/baharefatemi/HypE)
 
 - <a name="TransRHS"></a> **(TransRHS)** Fuxiang Zhang, Xin Wang, Zhao Li, Jianxin Li. "**TransRHS: A Representation Learning Method for Knowledge Graphs with Relation Hierarchical Structure**". **IJCAI 2020**. [paper](https://doi.org/10.24963/ijcai.2020/413) [code](https://github.com/tjuzhangfx/TransRHS)
@@ -991,11 +1005,17 @@ Welcome to join our small WeChat group via email, to learn and talk about KGE.
 
 - <a name="B-CP"></a> **(B-CP)** Katsuhiko Hayashi, Koki Kishimoto, Masashi Shimbo. "**A Greedy Bit-flip Training Algorithm for Binarized Knowledge Graph Embeddings**". **EMNLP (Findings) 2020**. [paper](https://www.aclweb.org/anthology/2020.findings-emnlp.10/)
 
+- <a name="BERT+CTF"></a> **(BERT+CTF)** Zhenjie Zhao, Evangelos E. Papalexakis, Xiaojuan Ma. "**Learning Physical Common Sense as Knowledge Graph Completion via BERT Data Augmentation and Constrained Tucker Factorization**". **EMNLP 2020**. [paper](https://www.aclweb.org/anthology/2020.emnlp-main.266/)
+
+- <a name="CoDEx"></a> **(CoDEx)** Tara Safavi, Danai Koutra. "**CoDEx: A Comprehensive Knowledge Graph Completion Benchmark**". **EMNLP 2020**. [paper](https://www.aclweb.org/anthology/2020.emnlp-main.669/)
+
 - <a name="Confidence"></a> **(Confidence)** JTara Safavi, Danai Koutra, Edgar Meij. "**Evaluating the Calibration of Knowledge Graph Embeddings for Trustworthy Link Prediction**". **EMNLP 2020**. [paper](https://www.aclweb.org/anthology/2020.emnlp-main.667/)
 
 - <a name="DacKGR"></a> **(DacKGR)** Xin Lv, Xu Han, Lei Hou, Juanzi Li, Zhiyuan Liu, Wei Zhang, Yichi Zhang, Hao Kong, Suhui Wu. "**Dynamic Anticipation and Completion for Multi-Hop Reasoning over Sparse Knowledge Graph**". **EMNLP 2020**. [paper](https://www.aclweb.org/anthology/2020.emnlp-main.667/) [code](https://github.com/THU-KEG/DacKGR)
 
 - <a name="DebiasE"></a> **(DebiasE)** Joseph Fisher, Arpit Mittal, Dave Palfrey, Christos Christodoulopoulos. "**Debiasing knowledge graph embeddings**". **EMNLP 2020**. [paper](https://www.aclweb.org/anthology/2020.emnlp-main.595/)
+
+- <a name="DualTKB"></a> **(DualTKB)** Pierre L. Dognin, Igor Melnyk, Inkit Padhi, Cícero Nogueira dos Santos, Payel Das. "**DualTKB: A Dual Learning Bridge between Text and Knowledge Base**". **EMNLP 2020**. [paper](https://www.aclweb.org/anthology/2020.emnlp-main.694/)
 
 - <a name="DyERNIE"></a> **(DyERNIE)** Zhen Han, Peng Chen, Yunpu Ma, Volker Tresp. "**DyERNIE: Dynamic Evolution of Riemannian Manifold Embeddings for Temporal Knowledge Graph Completion**". **EMNLP 2020**. [paper](https://www.aclweb.org/anthology/2020.emnlp-main.593/)
 
@@ -1005,7 +1025,19 @@ Welcome to join our small WeChat group via email, to learn and talk about KGE.
 
 - <a name="HyperKA"></a> **(HyperKA)** Zequn Sun, Muhao Chen, Wei Hu, Chengming Wang, Jian Dai, Wei Zhang. "**Knowledge Association with Hyperbolic Knowledge Graph Embeddings**". **EMNLP 2020**. [paper](https://www.aclweb.org/anthology/2020.emnlp-main.460/) [code](https://github.com/nju-websoft/HyperKA)
 
+- <a name="KEnS"></a> **(KEnS)** Xuelu Chen, Muhao Chen, Changjun Fan, Ankith Uppunda, Yizhou Sun, Carlo Zaniolo. "**Multilingual Knowledge Graph Completion via Ensemble Knowledge Transfer**". **EMNLP (Findings) 2020**. [paper](https://www.aclweb.org/anthology/2020.findings-emnlp.290/)
+
+- <a name="MCMH"></a> **(MCMH)** Lu Zhang, Mo Yu, Tian Gao, Yue Yu. "**MCMH: Learning Multi-Chain Multi-Hop Rules for Knowledge Graph Reasoning**". **EMNLP (Findings) 2020**. [paper](https://www.aclweb.org/anthology/2020.findings-emnlp.351/)
+
+- <a name="oDistMult"></a> **(oDistMult)** Marjan Albooyeh, Rishab Goel, Seyed Mehran Kazemi. "**Out-of-Sample Representation Learning for Knowledge Graphs**". **EMNLP (Findings) 2020**. [paper](https://www.aclweb.org/anthology/2020.findings-emnlp.241/)
+
 - <a name="RE-Net"></a> **(RE-Net)** Woojeong Jin, Meng Qu, Xisen Jin, Xiang Ren. "**Recurrent Event Network: Autoregressive Structure Inferenceover Temporal Knowledge Graphs**". **EMNLP 2020**. [paper](https://www.aclweb.org/anthology/2020.emnlp-main.541/) [code](https://github.com/INK-USC/RE-Net)
+
+- <a name="RuleGuider"></a> **(RuleGuider)** Deren Lei, Gangrong Jiang, Xiaotao Gu, Kexuan Sun, Yuning Mao, Xiang Ren. "**Learning Collaborative Agents with Rule Guidance for Knowledge Graph Reasoning**". **EMNLP 2020**. [paper](https://www.aclweb.org/anthology/2020.emnlp-main.688/)
+
+- <a name="SANS"></a> **(SANS)** Kian Ahrabian, Aarash Feizi, Yasmin Salehi, William L. Hamilton, Avishek Joey Bose. "**Structure Aware Negative Sampling in Knowledge Graphs**". **EMNLP 2020**. [paper](https://www.aclweb.org/anthology/2020.emnlp-main.492/)
+
+- <a name="STARE"></a> **(STARE)** Mikhail Galkin, Priyansh Trivedi, Gaurav Maheshwari, Ricardo Usbeck, Jens Lehmann. "**Message Passing for Hyper-Relational Knowledge Graphs**". **EMNLP 2020**. [paper]()
 
 - <a name="TeMP"></a> **(TeMP)** Jiapeng Wu, Meng Cao, Jackie Chi Kit Cheung, William L. Hamilton. "**TeMP: Temporal Message Passing for Temporal Knowledge Graph Completion**". **EMNLP 2020**. [paper](https://www.aclweb.org/anthology/2020.emnlp-main.462/) [code](https://github.com/JiapengWu/TeMP)
 
@@ -1030,6 +1062,10 @@ Welcome to join our small WeChat group via email, to learn and talk about KGE.
 - <a name="GeomE"></a> **(GeomE)** Chengjin Xu, Mojtaba Nayyeri, Yung-Yu Chen, Jens Lehmann. "**Knowledge Graph Embeddings in Geometric Algebras**". **COLING 2020**. [paper](https://www.aclweb.org/anthology/2020.coling-main.46/)
 
 - <a name="RatE"></a> **(RatE)** Hao Huang, Guodong Long, Tao Shen, Jing Jiang, Chengqi Zhang. "**RatE: Relation-Adaptive Translating Embedding for Knowledge Graph Completion**". **COLING 2020**. [paper](https://www.aclweb.org/anthology/2020.coling-main.48/)
+
+- <a name="IntKB"></a> **(IntKB)** Bernhard Kratzwald, Guo Kunpeng, Stefan Feuerriegel, Dennis Diefenbach. "**IntKB: A Verifiable Interactive Framework for Knowledge Base Completion**". **COLING 2020**. [paper](https://www.aclweb.org/anthology/2020.coling-main.490/)
+
+- <a name="KG-BERT"></a> **(KG-BERT)** Bosung Kim, Taesuk Hong, Youngjoong Ko, Jungyun Seo. "**Multi-Task Learning for Knowledge Graph Completion with Pre-trained Language Models**". **COLING 2020**. [paper](https://www.aclweb.org/anthology/2020.coling-main.153/)
 
 - <a name="TeRo"></a> **(TeRo)** Chengjin Xu, Mojtaba Nayyeri, Fouad Alkhoury, Hamed Shariat Yazdi, Jens Lehmann. "**TeRo: A Time-aware Knowledge Graph Embedding via Temporal Rotation**". **COLING 2020**. [paper](https://www.aclweb.org/anthology/2020.coling-main.139/) [code](https://github.com/soledad921/ATISE)
 
@@ -1084,6 +1120,10 @@ Welcome to join our small WeChat group via email, to learn and talk about KGE.
 - <a name="BCRL"></a> Gang Wu, Wenfang Wu, Leilei Li, Guodong Zhao, Donghong Han, Baiyou Qiao. "**BCRL: Long Text Friendly Knowledge Graph Representation Learning**". **ISWC 2020**. [paper](https://link.springer.com/chapter/10.1007%2F978-3-030-62419-4_36)
 
 - Mojtaba Nayyeri, Chengjin Xu, Sahar Vahdati, Nadezhda Vassilyeva, Emanuel Sallinger, Hamed Shariat Yazdi, Jens Lehmann. "**Fantastic Knowledge Graph Embeddings and How to Find the Right Space for Them**". **ISWC 2020**. [paper](https://link.springer.com/chapter/10.1007%2F978-3-030-62419-4_25)
+
+##### ICDM
+
+- Susheel Suresh, Jennifer Neville. "**A Hybrid Model for Learning Embeddings and Logical Rules Simultaneously from Knowledge Graphs**". **ICDM 2020**. [paper](https://ieeexplore.ieee.org/document/9338353)
 
 ##### ESWC
 
@@ -1194,6 +1234,12 @@ Welcome to join our small WeChat group via email, to learn and talk about KGE.
 - <a name="RTFE"></a> **(RTFE)** Youri Xu, Haihong E, Meina Song, Wenyu Song, Xiaodong Lv, Haotian Wang, Jinrui Yang. "**RTFE: A Recursive Temporal Fact Embedding Framework for Temporal Knowledge Graph Completion**". **NAACL-HLT 2021**. [paper](https://www.aclweb.org/anthology/2021.naacl-main.451/)
 
 - <a name="TeLM"></a> **(TeLM)** Chengjin Xu, Yung-Yu Chen, Mojtaba Nayyeri, Jens Lehmann. "**Temporal Knowledge Graph Completion using a Linear Temporal Regularizer and Multivector Embeddings**". **NAACL-HLT 2021**. [paper](https://www.aclweb.org/anthology/2021.naacl-main.202/)
+
+##### ICDE
+
+- Yueji Yang, Yuchen Li, Anthony K. H. Tung. "**NewsLink: Empowering Intuitive News Search with Knowledge Graphs**". **ICDE 2021**. [paper](https://ieeexplore.ieee.org/document/9458619)
+
+- Shimin Di, Quanming Yao, Yongqi Zhang, Lei Chen. "**Efficient Relation-aware Scoring Function Search for Knowledge Graph Embedding**". **ICDE 2021**. [paper](https://ieeexplore.ieee.org/document/9458750)
 
 ##### WWW
 
