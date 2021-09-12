@@ -3,8 +3,6 @@ Some papers on Knowledge Graph Embedding(KGE)
 
 Thanks for your attention and kind words! We will update KGE later.
 
-Welcome to join our small WeChat group via email, to learn and talk about KGE.
-
 ## Contents
 
 * [Libraries](#Libraries)
@@ -29,256 +27,429 @@ Welcome to join our small WeChat group via email, to learn and talk about KGE.
 
 #### Translation
 
-| Year | Source        |	Methods                        |
-|:----:|:-------------:|:-------------------------------:|
-| 2013 | NeurIPS       | **[TransE](#TransE)**           |
-| 2014 | AAAI          | **[TransH](#TransH)**           |
-| 2015 | AAAI          | **[TransR](#TransR)**           |
-| 2015 | ACL           | **[TransD](#TransD)**           |
-| 2015 | EMNLP         | **[PTransE](#PTransE)**         |
-| 2015 | EMNLP         | **[RTransE](#RTransE)**         |
-| 2015 | CIKM          | **[KG2E](#KG2E)**               |
-| 2016 | AAAI          | **[TransA](#TransA)**           |
-| 2016 | AAAI          | **[TranSparse](#TranSparse)**   |
-| 2016 | IJCAI         | **[ManifoldE](#ManifoldE)**     |
-| 2016 | ACL           | **[TransG](#TransG)**           |
-| 2016 | KR            | **[FTransE](#FTransE)**         |
-| 2016 | NAACL-HLT     | **[lppTransE](#lppTransE)**     |
-| 2016 | NAACL-HLT     | **[STransE](#STransE)**         |
-| 2017 | AAAI          | **[puTransE](#puTransE)**       |
-| 2017 | ACL           | **[ITransF](#ITransF)**         |
-| 2017 | CIKM          | **[TransE-RS](#TransE-RS)**     |
-| 2017 | CIKM          | **[CombinE](#CombinE)**         |
-| 2018 | AAAI          | **[TorusE](#TorusE)**           |
-| 2018 | AAAI          | **[TransAt](#TransAt)**         |
-| 2018 | EMNLP         | **[TransC](#TransC)**           |
-| 2019 | ICLR          | **[RotatE](#RotatE)**           |
-| 2019 | AAAI          | **[TransGate](#TransGate)**     |
-| 2019 | IJCAI         | **[TransMS](#TransMS)**         |
-| 2019 | WSDM          | **[CrossE](#CrossE)**           |
-| 2020 | AAAI          | **[HAKE](#HAKE)**               |
+| Year | Source | Methods |
+|:----:|:------:|:-------:|
+| 2013 | NeurIPS | **[TransE](#TransE)** |
+| 2014 | AAAI | **[TransH](#TransH)** |
+| 2015 | AAAI | **[TransR](#TransR)** |
+| 2015 | ACL | **[TransD](#TransD)** |
+| 2015 | EMNLP | **[RTransE](#RTransE)** |
+| 2015 | EMNLP | **[PTransE](#PTransE)** |
+| 2015 | CIKM | **[KG2E](#KG2E)** |
+| 2016 | AAAI | **[TransA](#TransA)** |
+| 2016 | AAAI | **[TranSparse](#TranSparse)** |
+| 2016 | ACL | **[TransG](#TransG)** |
+| 2016 | IJCAI | **[ManifoldE](#ManifoldE)** |
+| 2016 | KR | **[FTransE](#FTransE)** |
+| 2016 | NAACL-HLT | **[lppTransE](#lppTransE)** |
+| 2016 | NAACL-HLT | **[STransE](#STransE)** |
+| 2017 | AAAI | **[puTransE](#puTransE)** |
+| 2017 | ACL | **[ITransF](#ITransF)** |
+| 2017 | CIKM | **[CombinE](#CombinE)** |
+| 2017 | CIKM | **[TransE-RS](#TransE-RS)** |
+| 2018 | AAAI | **[TorusE](#TorusE)** |
+| 2018 | AAAI | **[TransAt](#TransAt)** |
+| 2018 | EMNLP | **[TransC](#TransC)** |
+| 2019 | ICLR | **[RotatE](#RotatE)** |
+| 2019 | AAAI | **[TransGate](#TransGate)** |
+| 2019 | NeurIPS | **[MuRP](#MuRP)** |
+| 2019 | IJCAI | **[TransMS](#TransMS)** |
+| 2020 | AAAI | **[HAKE](#HAKE)** |
+| 2020 | NeurIPS | **[BoxE](#BoxE)** |
+| 2020 | ACL | **[OTE](#OTE)** |
+| 2020 | ACL | **[ATTH](#ATTH)** |
+| 2020 | IJCAI | **[TransRHS](#TransRHS)** |
+| 2020 | ECAI | **[MDE](#MDE)** |
+| 2020 | COLING | **[AprilE](#AprilE)** |
+| 2020 | COLING | **[RatE](#RatE)** |
+| 2020 | AAMAS | **[TransL](#TransL)** |
+| 2020 | CIKM | **[NagE](#NagE)** |
+| 2020 | CIKM | **[Rotate3D](#Rotate3D)** |
+| 2020 | ISWC | **[SpacE](#SpacE)** |
+| 2020 | ICDM | **[LineaRE](#LineaRE)** |
+| 2020 | ESWC | **[HyperKG](#HyperKG)** |
+| 2021 | ACL | **[PairRE](#PairRE)** |
+| 2021 | NAACL-HLT | **[ProcrustEs](#ProcrustEs)** |
+| 2021 | ESWC | **[TransROWL](#TransROWL)** |
+| 2021 | WWW | **[MQuatE](#MQuatE)** |
 
 #### Multiplication
 
-| Year | Source        |	Methods                        |
-|:----:|:-------------:|:-------------------------------:|
-| 2011 | ICML          | **[RESCAL](#RESCAL)**           |
-| 2015 | ICLR          | **[DistMult](#DistMult)**       |
-| 2016 | ICML          | **[ComplEx](#ComplEx)**         |
-| 2016 | AAAI          | **[HolE](#HolE)**               |
-| 2017 | ICML          | **[ANALOGY](#ANALOGY)**         |
-| 2018 | NeurIPS       | **[SimplE](#SimplE)**           |
-| 2019 | ACL           | **[DihEdral](#DihEdral)**       |
-| 2019 | EMNLP         | **[TuckER](#TuckER)**           |
+| Year | Source | Methods |
+|:----:|:------:|:-------:|
+| 2011 | ICML | **[RESCAL](#RESCAL)** |
+| 2015 | ICLR | **[DistMult](#DistMult)** |
+| 2016 | AAAI | **[HolE](#HolE)** |
+| 2016 | ICML | **[ComplEx](#ComplEx)** |
+| 2017 | ICML | **[ANALOGY](#ANALOGY)** |
+| 2018 | NeurIPS | **[HolEX](#HolEX)** |
+| 2018 | NeurIPS | **[SimplE](#SimplE)** |
+| 2019 | NeurIPS | **[QuatE](#QuatE)** |
+| 2019 | ACL | **[DihEdral](#DihEdral)** |
+| 2019 | EMNLP | **[TuckER](#TuckER)** |
+| 2019 | WSDM | **[CrossE](#CrossE)** |
+| 2020 | ACL | **[SEEK](#SEEK)** |
+| 2020 | ICML | **[LowFER](#LowFER)** |
+| 2020 | EMNLP | **[B-CP](#B-CP)** |
+| 2020 | ECAI | **[BTDE](#BTDE)** |
+| 2020 | ECAI | **[MEI](#MEI)** |
+| 2020 | COLING | **[GeomE](#GeomE)** |
+| 2020 | ICDE | **[AutoSF](#AutoSF)** |
+| 2021 | AAAI | **[5E](#5E)** |
+| 2021 | AAAI | **[DualE](#DualE)** |
+| 2021 | NAACL-HLT | **[KRE](#KRE)** |
+| 2021 | ESWC | **[ConEx](#ConEx)** |
 
 #### Neural Networks
 
-| Year | Source        |	Methods                        |
-|:----:|:-------------:|:-------------------------------:|
-| 2013 | NeurIPS       | **[NTN](#NTN)**                 |
-| 2014 | KDD           | **[ER-MLP](#ER-MLP)**           |
-| 2017 | AAAI          | **[ProjE](#ProjE)**             |
-| 2018 | AAAI          | **[ConvE](#ConvE)**             |
-| 2018 | CIKM          | **[SENN](#SENN)**               |
-| 2018 | ESWC          | **[R-GCN](#R-GCN)**             |
-| 2018 | NAACL-HLT     | **[ConvKB](#ConvKB)**           |
-| 2018 | NAACL-HLT     | **[KBGAN](#KBGAN)**             |
-| 2019 | ICML          | **[RSN](#RSN)**                 |
-| 2019 | AAAI          | **[SACN](#SACN)**               |
-| 2019 | IJCAI         | **[VR-GCN](#VR-GCN)**           |
-| 2019 | IJCAI         | **[M-GNN](#M-GNN)**             |
-| 2019 | ACL           | **[KBGAT](#KBGAT)**             |
-| 2019 | WWW           | **[ActiveLink](#ActiveLink)**   |
-| 2019 | NAACL-HLT     | **[CapsE](#CapsE)**             |
-| 2019 | NAACL-HLT     | **[ConvR](#ConvR)**             |
-| 2019 | K-CAP         | **[TransGCN](#TransGCN)**       |
-| 2020 | ICLR          | **[CompGCN](#CompGCN)**         |
-| 2020 | ICLR          | **[DPMPN](#DPMPN)**             |
-| 2020 | AAAI          | **[InteractE](#InteractE)**     |
+| Year | Source | Methods |
+|:----:|:------:|:-------:|
+| 2013 | NeurIPS | **[NTN](#NTN)** |
+| 2014 | KDD | **[ER-MLP](#ER-MLP)** |
+| 2017 | AAAI | **[ProjE](#ProjE)** |
+| 2018 | AAAI | **[ConvE](#ConvE)** |
+| 2018 | NAACL-HLT | **[ConvKB](#ConvKB)** |
+| 2018 | NAACL-HLT | **[KBGAN](#KBGAN)** |
+| 2018 | CIKM | **[CACL](#CACL)** |
+| 2018 | CIKM | **[SENN](#SENN)** |
+| 2019 | ACL | **[KBGAT](#KBGAT)** |
+| 2019 | ICML | **[RSN](#RSN)** |
+| 2019 | NAACL-HLT | **[CapsE](#CapsE)** |
+| 2019 | NAACL-HLT | **[ConvR](#ConvR)** |
+| 2020 | AAAI | **[CoPER](#CoPER)** |
+| 2020 | AAAI | **[InteractE](#InteractE)** |
+| 2020 | AAAI | **[ParamE](#ParamE)** |
+| 2020 | COLING | **[ArcE](#ArcE)** |
+| 2021 | NAACL | **[EDGE](#EDGE)** |
+
+#### Graph Networks
+
+| Year | Source | Methods |
+|:----:|:------:|:-------:|
+| 2018 | ESWC | **[R-GCN](#R-GCN)** |
+| 2019 | AAAI | **[SACN](#SACN)** |
+| 2019 | ACL | **[A2N](#A2N)** |
+| 2019 | ACL | **[KBGAT](#KBGAT)** |
+| 2019 | IJCAI | **[M-GNN](#M-GNN)** |
+| 2019 | IJCAI | **[RDGCN](#RDGCN)** |
+| 2019 | IJCAI | **[VR-GCN](#VR-GCN)** |
+| 2019 | ICASSP | **[GRNN](#GRNN)** |
+| 2020 | ICLR | **[CompGCN](#CompGCN)** |
+| 2020 | ICLR | **[DPMPN](#DPMPN)** |
+| 2020 | AAAI | **[RGHAT](#RGHAT)** |
+| 2020 | CIKM | **[GAEAT](#GAEAT)** |
+| 2021 | ACL | **[EIGAT](#EIGAT)** |
+| 2021 | WWW | **[KE-GCN](#KE-GCN)** |
+| 2021 | WWW | **[M2GNN](#M2GNN)** |
+
+#### Hyper Planes
+
+| Year | Source | Methods |
+|:----:|:------:|:-------:|
+| 2016 | ICML | **[ComplEx](#ComplEx)** |
+| 2018 | AAAI | **[TorusE](#TorusE)** |
+| 2019 | ICLR | **[RotatE](#RotatE)** |
+| 2019 | NeurIPS | **[QuatE](#QuatE)** |
+| 2019 | NeurIPS | **[MuRP](#MuRP)** |
+| 2020 | AAAI | **[HAKE](#HAKE)** |
 
 ### Informations
 
+#### Text
+
+| Year | Source | Methods |
+|:----:|:------:|:-------:|
+| 2014 | EMNLP | **[pTransE](#pTransE)** |
+| 2015 | EMNLP | **[Jointly(desp)](#Jointly(desp))** |
+| 2016 | AAAI  | **[DKRL](#DKRL)** |
+| 2016 | IJCAI | **[TEKE](#TEKE)** |
+| 2017 | AAAI | **[SSP](#SSP)** |
+| 2017 | IJCAI | **[Jointly(A-LSTM)](#Jointly(A-LSTM))** |
+| 2017 | ACL | **[FRN](#FRN)** |
+| 2018 | AAAI | **[ConMask](#ConMask)** |
+| 2018 | AAAI | **[JointNRE](#JointNRE)** |
+| 2018 | NAACL-HLT | **[ATE](#ATE)** |
+| 2019 | AAAI | **[OWE](#OWE)** |
+| 2019 | IJCAI | **[WWV](#WWV)** |
+| 2019 | EMNLP | **[CaRe](#CaRe)** |
+| 2019 | EMNLP | **[TCVAE](#TCVAE)** |
+| 2019 | EMNLP | **[CPL](#CPL)** |
+| 2020 | ISWC | **[BCRL](#BCRL)** |
+| 2021 | NAACL | **[EDGE](#EDGE)** |
+| 2021 | WWW | **[StAR](#StAR)** |
+
 #### Path
 
-| Year | Source        |	Methods                        |
-|:----:|:-------------:|:-------------------------------:|
-| 2015 | EMNLP         | **[PTransE](#PTransE)**         |
-| 2015 | EMNLP         | **[RTransE](#RTransE)**         |
-| 2015 | EMNLP         | **[TransE-COMP](#TransE-COMP)** |
-| 2016 | COLING        | **[GAKE](#GAKE)**               |
-| 2017 | EMNLP         | **[DeepPath](#DeepPath)**       |
-| 2017 | CIKM          | **[TCE](#TCE)**                 |
-| 2018 | ICLR          | **[MINERVA](#MINERVA)**         |
-| 2018 | EMNLP         | **[MultiHopKG](#MultiHopKG)**   |
-| 2019 | ICML          | **[RSN](#RSN)**                 |
-| 2019 | EMNLP         | **[OPTransE](#OPTransE)**       |
-| 2020 | AAAI          | **[RPJE](#RPJE)**               |
+| Year | Source | Methods |
+|:----:|:------:|:-------:|
+| 2015 | EMNLP | **[PTransE](#PTransE)** |
+| 2015 | EMNLP | **[RTransE](#RTransE)** |
+| 2015 | EMNLP | **[TransE-COMP](#TransE-COMP)** |
+| 2016 | COLING | **[GAKE](#GAKE)** |
+| 2017 | EMNLP | **[DeepPath](#DeepPath)** |
+| 2017 | CIKM | **[TCE](#TCE)** |
+| 2018 | ICLR | **[MINERVA](#MINERVA)** |
+| 2018 | EMNLP | **[MultiHopKG](#MultiHopKG)** |
+| 2019 | ICML | **[RSN](#RSN)** |
+| 2019 | EMNLP | **[OPTransE](#OPTransE)** |
+| 2020 | AAAI | **[RPJE](#RPJE)** |
+| 2020 | NeurIPS | **[Interstellar](#Interstellar)** |
 
-#### Textual
+#### Type
 
-| Year | Source        |	Methods                                |
-|:----:|:-------------:|:---------------------------------------:|
-| 2014 | EMNLP         | **[pTransE](#pTransE)**                 |
-| 2015 | EMNLP         | **[Jointly(desp)](#Jointly(desp))**     |
-| 2016 | AAAI          | **[DKRL](#DKRL)**                       |
-| 2016 | IJCAI         | **[TEKE](#TEKE)**                       |
-| 2017 | AAAI          | **[SSP](#SSP)**                         |
-| 2017 | IJCAI         | **[Jointly(A-LSTM)](#Jointly(A-LSTM))** |
-| 2017 | ACL           | **[FRN](#FRN)**                         |
-| 2018 | AAAI          | **[ConMask](#ConMask)**                 |
-| 2018 | AAAI          | **[JointNRE](#JointNRE)**               |
-| 2018 | NAACL-HLT     | **[ATE](#ATE)**                         |
-| 2019 | AAAI          | **[OWE](#OWE)**                         |
-| 2019 | IJCAI         | **[WWV](#WWV)**                         |
-| 2019 | EMNLP         | **[CaRe](#CaRe)**                       |
-| 2019 | EMNLP         | **[TCVAE](#TCVAE)**                     |
-| 2019 | EMNLP         | **[CPL](#CPL)**                         |
+| Year | Source | Methods |
+|:----:|:------:|:-------:|
+| 2016 | IJCAI | **[TKRL](#TKRL)** |
+| 2017 | CIKM | **[ETE](#ETE)** |
+| 2017 | ECML/PKDD | **[TransT](#TransT)** |
+| 2018 | ACL | **[TypeComplex](#TypeComplex)** |
+| 2019 | KDD | **[JOIE](#JOIE)** |
+| 2020 | ACL | **[ConnectE](#ConnectE)** |
+| 2020 | EMNLP | **[AutoETER](#AutoETER)** |
+| 2021 | AAAI | **[TaRP](#TaRP)** |
+| 2021 | WWW | **[RETA-Grader](#RETA-Grader)** |
 
 #### Hierarchy
 
-| Year | Source        |	Methods                        |
-|:----:|:-------------:|:-------------------------------:|
-| 2016 | IJCAI         | **[TKRL](#TKRL)**               |
-| 2016 | SIGIR         | **[HiRi](#HiRi)**               |
-| 2018 | AAAI          | **[TransE-T](#TransE-T)**       |
-| 2018 | EMNLP         | **[TransE-HRS](#TransE-HRS)**   |
-| 2020 | AAAI          | **[HAKE](#HAKE)**               |
-
-#### Taxonomic
-
-| Year | Source        |	Methods                        |
-|:----:|:-------------:|:-------------------------------:|
-| 2019 | AAAI          | **[SimplE+](#SimplE+)**         |
+| Year | Source | Methods |
+|:----:|:------:|:-------:|
+| 2016 | IJCAI | **[TKRL](#TKRL)** |
+| 2016 | SIGIR | **[HiRi](#HiRi)** |
+| 2018 | AAAI | **[TransE-T](#TransE-T)** |
+| 2018 | EMNLP | **[TransE-HRS](#TransE-HRS)** |
+| 2020 | AAAI | **[HAKE](#HAKE)** |
+| 2020 | IJCAI | **[TransRHS](#TransRHS)** |
 
 #### Neighborhood
 
-| Year | Source        |	Methods                        |
-|:----:|:-------------:|:-------------------------------:|
-| 2016 | NeurIPS       | **[Gaifman](#Gaifman)**         |
-| 2016 | COLING        | **[GAKE](#GAKE)**               |
-| 2017 | CIKM          | **[TCE](#TCE)**                 |
-| 2018 | UAI           | **[KBLRN](#KBLRN)**             |
-| 2018 | CIKM          | **[SENN](#SENN)**               |
-| 2018 | ESWC          | **[R-GCN](#R-GCN)**             |
-| 2019 | AAAI          | **[LENA](#LENA)**               |
-| 2019 | AAAI          | **[LAN](#LAN)**                 |
-| 2019 | AAAI          | **[SACN](#SACN)**               |
-| 2019 | WWW           | **[TransN](#TransN)**           |
-| 2019 | EMNLP         | **[CaRe](#CaRe)**               |
-| 2020 | AAAI          | **[FSRL](#FSRL)**               |
+| Year | Source | Methods |
+|:----:|:------:|:-------:|
+| 2016 | NeurIPS | **[Gaifman](#Gaifman)** |
+| 2016 | COLING | **[GAKE](#GAKE)** |
+| 2017 | CIKM | **[TCE](#TCE)** |
+| 2018 | UAI | **[KBLRN](#KBLRN)** |
+| 2018 | CIKM | **[SENN](#SENN)** |
+| 2018 | ESWC | **[R-GCN](#R-GCN)** |
+| 2019 | AAAI | **[LAN](#LAN)** |
+| 2019 | AAAI | **[LENA](#LENA)** |
+| 2019 | AAAI | **[SACN](#SACN)** |
+| 2019 | EMNLP | **[CaRe](#CaRe)** |
+| 2019 | WWW | **[TransN](#TransN)** |
+| 2020 | AAAI | **[FSRL](#FSRL)** |
 
 ### Augmentations
 
-#### Constraints
+#### Rules
 
-| Year | Source        |	Methods                        |
-|:----:|:-------------:|:-------------------------------:|
-| 2015 | ACL           | **[SSE](#SSE)**                 |
-| 2018 | ACL           | **[ComplEx-NNE](#ComplEx-NNE)** |
-| 2019 | AAAI          | **[SimplE+](#SimplE+)**         |
+| Year | Source | Methods |
+|:----:|:------:|:-------:|
+| 2015 | IJCAI | **[r-TransE](#r-TransE)** |
+| 2016 | IJCAI | **[ProPPR](#ProPPR)** |
+| 2016 | EMNLP | **[KALE](#KALE)** |
+| 2017 | NeurIPS | **[Neural-LP](#Neural-LP)** |
+| 2018 | AAAI | **[RUGE](#RUGE)** |
+| 2018 | AAAI | **[RLvLR](#RLvLR)** |
+| 2018 | ACL | **[ComplEx-NNE](#ComplEx-NNE)** |
+| 2018 | UAI | **[KBLRN](#KBLRN)** |
+| 2018 | ISWC | **[RuleN](#RuleN)** |
+| 2019 | AAAI | **[UKGE](#UKGE)** |
+| 2019 | NeurIPS | **[DRUM](#DRUM)** |
+| 2019 | NeurIPS | **[pLogicNet](#pLogicNet)** |
+| 2019 | IJCAI | **[AnyBURL](#AnyBURL)** |
+| 2019 | WWW | **[IterE](#IterE)** |
+| 2020 | ICLR | **[Neural-LP-N](#Neural-LP-N)** |
+| 2020 | AAAI | **[RPJE](#RPJE)** |
+| 2020 | EMNLP | **[ASR-ComplEx](#ASR-ComplEx)** |
+| 2020 | EMNLP | **[RuleGuider](#RuleGuider)** |
+| 2020 | EMNLP | **[MCMH](#MCMH)** |
+| 2020 | CIKM | **[SLRE](#SLRE)** |
+| 2020 | ICDM | **[HybridER](#HybridER)** |
+| 2021 | AAAI | **[RARL](#RARL)** |
 
-#### Regularizers
+#### Regularize
 
-| Year | Source        |	Methods                        |
-|:----:|:-------------:|:-------------------------------:|
-| 2015 | ACL           | **[SSE](#SSE)**                 |
-| 2018 | ICML          | **[ComplEx-N3](#ComplEx-N3)**   |
-| 2018 | AAAI          | **[ComplEx-L1](#ComplEx-L1)**   |
-| 2019 | UAI           | **[EM](#EM)**                   |
-| 2020 | ICLR          | **[Teach](#Teach)**             
-
-#### Soft Rules
-
-| Year | Source        |	Methods                        |
-|:----:|:-------------:|:-------------------------------:|
-| 2015 | IJCAI         | **[r-TransE](#r-TransE)**       |
-| 2016 | IJCAI         | **[ProPPR](#ProPPR)**           |
-| 2016 | EMNLP         | **[KALE](#KALE)**               |
-| 2017 | NeurIPS       | **[Neural-LP](#Neural-LP)**     |
-| 2018 | NeurIPS       | **[GQE](#GQE)**                 |
-| 2018 | AAAI          | **[RUGE](#RUGE)**               |
-| 2019 | NeurIPS       | **[DRUM](#DRUM)**               |
-| 2019 | AAAI          | **[UKGE](#UKGE)**               |
-| 2019 | IJCAI         | **[AnyBURL](#AnyBURL)**         |
-| 2019 | WWW           | **[IterE](#IterE)**             |
-| 2020 | ICLR          | **[Neural-LP-N](#Neural-LP-N)** |
-| 2020 | ICLR          | **[Q2B](#Q2B)**                 |
-| 2020 | AAAI          | **[RPJE](#RPJE)**               |
-
+| Year | Source | Methods |
+|:----:|:------:|:-------:|
+| 2015 | ACL | **[SSE](#SSE)** |
+| 2017 | ECML/PKDD | **[ComplEx<sup>R</sup>](#ComplEx<sup>R</sup>)** |
+| 2018 | ACL | **[ComplEx-NNE](#ComplEx-NNE)** |
+| 2018 | ICML | **[ComplEx-N3](#ComplEx-N3)** |
+| 2018 | AAAI | **[ComplEx-L1](#ComplEx-L1)** |
+| 2019 | AAAI | **[SimplE+](#SimplE+)** |
+| 2019 | UAI | **[EM](#EM)** |
+| 2020 | NeurIPS | **[DURA](#DURA)** |   
+| 2020 | EMNLP | **[DA+CSTR](#DA+CSTR)** |
+| 2020 | CIKM | **[SLRE](#SLRE)** |
+         
 #### Negative Sampling
 
-| Year | Source        |	Methods                        |
-|:----:|:-------------:|:-------------------------------:|
-| 2014 | AAAI          | **[TransH](#TransH)**           |
-| 2018 | AAAI          | **[IGAN](#IGAN)**               |
-| 2018 | NAACL-HLT     | **[KBGAN](#KBGAN)**             |
-| 2019 | ICLR          | **[RotatE](#RotatE)**           |
-| 2019 | ICDE          | **[NSCaching](#NACaching)**     |
+| Year | Source | Methods |
+|:----:|:------:|:-------:|
+| 2014 | AAAI | **[TransH](#TransH)** |
+| 2018 | AAAI | **[IGAN](#IGAN)** |
+| 2018 | NAACL-HLT | **[KBGAN](#KBGAN)** |
+| 2019 | ICLR | **[RotatE](#RotatE)** |
+| 2019 | ICDE | **[NSCaching](#NACaching)** |
+| 2020 | EMNLP | **[SANS](#SANS)** |
 
 ### Emergents
 
-#### [Few Shot](https://github.com/xinguoxia/KGE/blob/master/Emergents/FewShot.md)
+#### N-ary
 
-| Year | Source |	Methods |
+| Year | Source | Methods |
 |:----:|:------:|:-------:|
+| 2016 | IJCAI | **[m-TransH](#m-TransH)** |
+| 2018 | WWW | **[RAE](#RAE)** |
+| 2019 | WWW | **[NaLP](#NaLP)** |
+| 2020 | NeurIPS | **[BoxE](#BoxE)** |
+| 2020 | ACL | **[NeuInfer](#NeuInfer)** |
+| 2020 | IJCAI | **[HypE](#HypE)** |
+| 2020 | EMNLP | **[STARE](#STARE)** |
+| 2020 | WWW | **[GETD](#GETD)** |
+| 2020 | WWW | **[HINGE](#HINGE)** |
+| 2021 | WWW | **[RAW](#RAW)** |
+
+#### Temporal
+
+| Year | Source | Methods |
+|:----:|:------:|:-------:|
+| 2014 | EMNLP | **[CTPs](#CTPs)** |
+| 2016 | EMNLP | **[t-TransE](#t-TransE)** |
+| 2016 | COLING | **[TransE-TAE](#TransE-TAE)** |
+| 2017 | AAAI | **[MLNs](#MLNs)** |
+| 2017 | ICML | **[Know-Evolve](#Know-Evolve)** |
+| 2018 | EMNLP | **[HyTE](#HyTE)** |
+| 2018 | EMNLP | **[TA-DistMult](#TA-DistMult)** |
+| 2018 | WWW | **[TTransE](#TTransE)** |
+| 2019 | ICLR | **[DyRep](#DyRep)** |
+| 2020 | ICLR | **[TComplEx](#TComplEx)** |
+| 2020 | AAAI | **[DE-SimplE](#DE-SimplE)** |
+| 2020 | AAAI | **[EvolveGCN](#EvolveGCN)** |
+| 2020 | IJCAI | **[DArtNet](#DArtNet)** |
+| 2020 | EMNLP | **[DyERNIE](#DyERNIE)** |
+| 2020 | EMNLP | **[RE-NET](#RE-NET)** |
+| 2020 | EMNLP | **[TeMP](#TeMP)** |
+| 2020 | EMNLP | **[TIMEPLEX](#TIMEPLEX)** |
+| 2020 | COLING | **[TeRo](#TeRo)** |
+| 2020 | CIKM | **[ToKE](#ToKE)** |
+| 2020 | ISWC | **[ATiSE](#ATiSE)** |
+| 2020 | WWW | **[TDGNN](#TDGNN)** |
+| 2021 | AAAI | **[ChronoR](#ChronoR)** |
+| 2021 | AAAI | **[CyGNet](#CyGNet)** |
+| 2021 | AAAI | **[NLSM](#NLSM)** |
+| 2021 | ACL | **[CluSTeR](#CluSTeR)** |
+| 2021 | ACL | **[HERCULES](#HERCULES)** |
+| 2021 | IJCAI | **[HIPNet](#HIPNet)** |
+| 2021 | NAACL-HLT | **[KRE](#KRE)** |
+| 2021 | NAACL-HLT | **[RTFE](#RTFE)** |
+| 2021 | NAACL-HLT | **[TeLM](#TeLM)** |
+| 2021 | KDD | **[T-GAP](#T-GAP)** |
+| 2021 | SIGIR | **[RE-GCN](#RE-GCN)** |
+| 2021 | SIGIR | **[TIE](#TIE)** |
+| 2021 | WSDM | **[DBKGE](#DBKGE)** |
+| 2021 | DASFAA | **[ST-ConvKB](#ST-ConvKB)** |
+| 2021 | ESWC | **[RETRA](#RETRA)** |
+
+#### Uncertain
+
+| Year | Source | Methods |
+|:----:|:------:|:-------:|
+| 2017 | CIKM | **[URGE](#URGE)** |
+| 2019 | AAAI | **[UKGE](#UKGE)** |
+| 2021 | IJCAI | **[FocusE](#FocusE)** |
+| 2021 | NAACL | **[BEUrRE](#BEUrRE)** |
+| 2021 | DASFAA | **[GMUC](#GMUC)** |
+| 2021 | AAAI | **[PASSLEAF](#PASSLEAF)** |
+
+#### Transfer
+
+| Year | Source | Methods |
+|:----:|:------:|:-------:|
+| 2017 | IJCAI | **[MEAN](#MEAN)** |
+| 2020 | COLING | **[KD-MKB](#KD-MKB)** |
+| 2021 | WWW | **[ATransN](#ATransN)** |
+| 2021 | WWW | **[MulDE](#MulDE)** |
+
+#### Segmented
+
+| Year | Source | Methods |
+|:----:|:------:|:-------:|
+| 2020 | ACL | **[SEEK](#SEEK)** |
+| 2020 | ACL | **[OTE](#OTE)** |
+| 2021 | NAACL | **[ProcrustEs](#ProcrustEs)** |
+
+#### Recommendation
+
+| Year | Source | Methods |
+|:----:|:------:|:-------:|
+| 2018 | ESWC | **[CoFM](#CoFM)** |
+| 2019 | WWW | **[KTUP](#KTUP)** |
+| 2020 | WWW | **[UPGAN](#UPGAN)** |
+
+#### Few Shot
+
+| Year | Source | Methods |
+|:----:|:------:|:-------:|
+| 2017 | IJCAI | **[MEAN](#MEAN)** |
 | 2018 | EMNLP | **[GMatching](#GMatching)** |
 | 2019 | EMNLP | **[MetaR](#MetaR)** |
 | 2019 | EMNLP | **[TCVAE](#TCVAE)** |
 | 2019 | EMNLP | **[Meta-KGR](#Meta-KGR)** |
-| 2020 | NeurIPS | **[GEN](#GEN)** |
 | 2020 | AAAI | **[FSRL](#FSRL)** |
 | 2020 | AAAI | **[ZSGAN](#ZSGAN)** |
+| 2020 | NeurIPS | **[GEN](#GEN)** |
 | 2020 | EMNLP | **[FAAN](#FAAN)** |
 | 2020 | EMNLP | **[FIRE](#FIRE)** |
+| 2021 | SIGIR | **[GANA](#GANA)** |
+| 2021 | SIGIR | **[MetaP](#MetaP)** |
+| 2021 | DASFAA | **[GMUC](#GMUC)** |
 
-#### Hyper Planes
+#### Low Resource 
 
-| Year | Source        |	Methods                        |
-|:----:|:-------------:|:-------------------------------:|
-| 2016 | ICML          | **[ComplEx](#ComplEx)**         |
-| 2018 | AAAI          | **[TorusE](#TorusE)**           |
-| 2019 | NeurIPS       | **[QuatE](#QuatE)**             |
-| 2019 | NeurIPS       | **[MuRP](#MuRP)**               |
-| 2019 | ICLR          | **[RotatE](#RotatE)**           |
-| 2020 | AAAI          | **[HAKE](#HAKE)**               |
+| Year | Source | Methods |
+|:----:|:------:|:-------:|
+| 2020 | EMNLP | **[Pretrain-KGE](#Pretrain-KGE)** |
+| 2020 | WWW | **[wRAN](#wRAN)** |
+| 2021 | DASFAA | **[SEwA](#SEwA)** |
 
-#### Graph Networks
+#### Complex Query
 
-| Year | Source        |	Methods                        |
-|:----:|:-------------:|:-------------------------------:|
-| 2018 | ESWC | **[R-GCN](#R-GCN)** |
-| 2019 | AAAI | **[SACN](#SACN)** |
-| 2019 | IJCAI | **[VR-GCN](#VR-GCN)** |
-| 2019 | ICASSP | **[GRNN](#GRNN)** |
-| 2019 | PRICAI | **[SAGCN](#SAGCN)** |
-| 2019 | K-CAP | **[TransGCN](#TransGCN)** |
-| 2020 | IEEE Access | **[GAATs](#GAATs)** |
-| 2020 | ICLR | **[CompGCN](#SAGCN)** |
-| 2020 | ICLR | **[DPMPN](#DPMPN)** |
-| 2020 | AAAI | **[RGHAT](#RGHAT)** |
-| 2020 | CoRR | **[TGCN](#TGCN)** |
+| Year | Source | Methods |
+|:----:|:------:|:-------:|
+| 2018 | NeurIPS | **[GQE](#GQE)** |
+| 2020 | ICLR | **[Q2B](#Q2B)** |
+| 2020 | NeurIPS | **[BETAE](#BETAE)** |
+| 2020 | NeurIPS | **[EmQL](#EmQL)** |
+| 2020 | UAI | **[TRACTOR](#TRACTOR)** |
+| 2021 | AAAI | **[BiQE](#BiQE)** |
+| 2021 | KDD | **[NewLook](#NewLook)** |
 
-#### Temporal
+#### Reinforcement Learning
 
-| Year | Source                   |	Methods                     |
-|:----:|:------------------------:|:-------------------------------:|
-| 2014 | EMNLP                    | **[CTPs](#CTPs)**               |
-| 2016 | EMNLP                    | **[t-TransE](#t-TransE)**       |
-| 2016 | COLING                   | **[TransE-TAE](#TransE-TAE)**   |
-| 2017 | ICML                     | **[Know-Evolve](#Know-Evolve)** |
-| 2017 | AAAI                     | **[MLNs](#MLNs)**               |
-| 2018 | WWW                      | **[TTransE](#TTransE)**         |
-| 2018 | EMNLP                    | **[TA-DistMult](#TA-DistMult)** |
-| 2018 | EMNLP                    | **[HyTE](#HyTE)**               |
-| 2019 | Journal of Web Semantics | **[ConT](#ConT)**               |
-| 2019 | ICLR                     | **[DyRep](#DyRep)**             |
-| 2019 | ICTAI                    | **[Hybrid-TE](#Hybrid-TE)**     |
-| 2019 | WISE                     | **[CATE](#CATE)**               |
-| 2020 | IEEE Access              | **[TDG2E](#TDG2E)**             |
-| 2020 | ICLR                     | **[TComplEx](#TComplEx)**       |
-| 2020 | AAAI                     | **[DE-SimplE](#DE-SimplE)**     |
-| 2020 | IJCAI                    | **[DArtNet](#DArtNet)**         |
-| 2020 | CoRR                     | **[TIMEPLEX](#TIMEPLEX)**       |
+| Year | Source | Methods |
+|:----:|:------:|:-------:|
+| 2017 | EMNLP | **[DeepPath](#DeepPath)** |
+| 2018 | ICLR | **[MINERVA](#MINERVA)** |
+| 2018 | NeurIPS | **[M-Walk](#M-Walk)** |
+| 2018 | EMNLP | **[MultiHopKG](#MultiHopKG)** |
+| 2020 | AAAI | **[R2D2](#R2D2)** |
+| 2020 | IJCAI | **[RLH](#RLH)** |
+| 2020 | EMNLP | **[CPL](#CPL)** |
+| 2020 | EMNLP | **[DacKGR](#DacKGR)** |
+| 2020 | EMNLP | **[RuleGuider](#RuleGuider)** |
+| 2021 | AAAI | **[PASSLEAF](#PASSLEAF)** |
+| 2021 | AAAI | **[GaussianPath](#GaussianPath)** |
+
+####  Inductive Link Prediction
+
+| Year | Source | Methods |
+|:----:|:------:|:-------:|
+| 2017 | NeurIPS | **[Neural-LP](#Neural-LP)** |
+| 2018 | ISWC | **[RuleN](#RuleN)** |
+| 2019 | NeurIPS | **[DRUM](#DRUM)** |
+| 2020 | ICML | **[GraIL](#GraIL)** |
+| 2020 | ISWC | **[IELP](#IELP)** |
+| 2021 | AAAI | **[AAAI](#TACT)** |
 
 ## Papers
 
@@ -506,6 +677,8 @@ Welcome to join our small WeChat group via email, to learn and talk about KGE.
 
 - <a name="Neural-LP"></a> **(Neural-LP)** Fan Yang, Zhilin Yang, William W. Cohen. "**Differentiable Learning of Logical Rules for Knowledge Base Reasoning**". **NeurIPS 2017**. [paper](http://papers.nips.cc/paper/6826-differentiable-learning-of-logical-rules-for-knowledge-base-reasoning) [reviews](http://media.nips.cc/nipsbooks/nipspapers/paper_files/nips30/reviews/1347.html) [code](https://github.com/fanyangxyz/Neural-LP) :fire:
 
+- <a name="NTPs"></a> **(NTPs)** Tim Rocktäschel, Sebastian Riedel. "**End-to-end Differentiable Proving**". **NeurIPS 2017**. [paper](https://proceedings.neurips.cc/paper/2017/hash/b2ab001909a8a6f04b51920306046ce5-Abstract.html)
+
 ##### ACL
 
 - <a name="FRN"></a> **(FRN)** Alexandros Komninos, Suresh Manandhar. "**Feature-Rich Networks for Knowledge Base Completion**". **ACL 2017**. [paper](https://www.aclweb.org/anthology/P17-2051/)
@@ -518,11 +691,21 @@ Welcome to join our small WeChat group via email, to learn and talk about KGE.
 
 - <a name="Know-Evolve"></a> **(Know-Evolve)** Rakshit Trivedi, Hanjun Dai, Yichen Wang, Le Song. "**Know-Evolve: Deep Temporal Reasoning for Dynamic Knowledge Graphs**". **ICML 2017**. [paper](http://proceedings.mlr.press/v70/trivedi17a.html) :fire:
 
+- <a name="MPNN"></a> **(MPNN)** Justin Gilmer, Samuel S. Schoenholz, Patrick F. Riley, Oriol Vinyals, George E. Dahl. "**Neural Message Passing for Quantum Chemistry**". **ICML 2017**. [paper](http://proceedings.mlr.press/v70/gilmer17a.html)
+
 ##### IJCAI
 
 - <a name="IKRL"></a> **(IKRL)** Ruobing Xie, Zhiyuan Liu, Huanbo Luan, Maosong Sun. "**Image-embodied Knowledge Representation Learning**". **IJCAI 2017**. [paper](https://www.ijcai.org/proceedings/2017/438) [code](https://github.com/thunlp/IKRL)
 
 - <a name="Jointly(A-LSTM)"></a> **(Jointly(A-LSTM))** Jiacheng Xu, Xipeng Qiu, Kan Chen, Xuanjing Huang. "**Knowledge Graph Representation with Jointly Structural and Textual Encoding**". **IJCAI 2017**. [paper](https://www.ijcai.org/proceedings/2017/183) [code](https://github.com/jiacheng-xu/Attn-KGE) :fire:
+
+- <a name="MEAN"></a> **MEAN** Takuo Hamaguchi, Hidekazu Oiwa, Masashi Shimbo, Yuji Matsumoto. "**Knowledge Transfer for Out-of-Knowledge-Base Entities : A Graph Neural Network Approach**". **IJCAI 2017**. [paper](https://www.ijcai.org/proceedings/2017/250)
+
+- <a name="IPTransE"></a> **IPTransE** Hao Zhu, Ruobing Xie, Zhiyuan Liu, Maosong Sun. "**Iterative Entity Alignment via Joint Knowledge Embeddings**". **IJCAI 2017**. [paper](https://www.ijcai.org/proceedings/2017/595)
+
+##### UAI
+
+- <a name="ASR-ComplEx"></a> **ASR-ComplEx** Pasquale Minervini, Thomas Demeester, Tim Rocktäschel, Sebastian Riedel. "**Adversarial Sets for Regularising Neural Link Predictors**". **UAI 2017**. [paper](http://auai.org/uai2017/proceedings/papers/306.pdf)
 
 ##### EMNLP
 
@@ -542,13 +725,15 @@ Welcome to join our small WeChat group via email, to learn and talk about KGE.
 
 - <a name="TransE-RS"></a> **(TransE-RS)** Xiaofei Zhou, Qiannan Zhu, Ping Liu, Li Guo. "**Learning Knowledge Embeddings by Combining Limit-based Scoring Loss**". **CIKM 2017**. [paper](https://dl.acm.org/doi/10.1145/3132847.3132939)
 
+- <a name="URGE"></a> **(URGE)** Jiafeng Hu, Reynold Cheng, Zhipeng Huang, Yixiang Fang, Siqiang Luo. "**On Embedding Uncertain Graphs**". **CIKM 2017**. [paper](https://dl.acm.org/doi/10.1145/3132847.3132885)
+
 ##### WSDM
 
 - <a name="RSTE"></a> **(RSTE)** Yi Tay, Anh Tuan Luu, Siu Cheung Hui, Falk Brauer. "**Random Semantic Tensor Ensemble for Scalable Knowledge Graph Link Prediction**". **WSDM 2017**. [paper](https://dl.acm.org/doi/10.1145/3018661.3018695)
 
 ##### ECML-PKDD
 
-- <a name="Regularize"></a> **(Regularize)** Pasquale Minervini, Luca Costabello, Emir Muñoz, Vít Novácek, Pierre-Yves Vandenbussche. "**Regularizing Knowledge Graph Embeddings via Equivalence and Inversion Axioms**". **ECML/PKDD 2017**. CCF B. Cite 31. [paper](https://link.springer.com/chapter/10.1007%2F978-3-319-71249-9_40)
+- <a name="ComplEx<sup>R</sup>"></a> **(ComplEx<sup>R</sup>)** Pasquale Minervini, Luca Costabello, Emir Muñoz, Vít Novácek, Pierre-Yves Vandenbussche. "**Regularizing Knowledge Graph Embeddings via Equivalence and Inversion Axioms**". **ECML/PKDD 2017**. CCF B. Cite 31. [paper](https://link.springer.com/chapter/10.1007%2F978-3-319-71249-9_40)
 
 - <a name="TransT"></a> **(TransT)** Shiheng Ma, Jianhui Ding, Weijia Jia, Kun Wang, Minyi Guo. "**TransT: Type-Based Multiple Embedding Representations for Knowledge Graph Completion**". **ECML/PKDD 2017**. [paper](https://link.springer.com/chapter/10.1007%2F978-3-319-71249-9_43)
 
@@ -602,7 +787,11 @@ Welcome to join our small WeChat group via email, to learn and talk about KGE.
 
 - <a name="GQE"></a> **(GQE)** William L. Hamilton, Payal Bajaj, Marinka Zitnik, Dan Jurafsky, Jure Leskovec. "**Embedding Logical Queries on Knowledge Graphs**". **NeurIPS 2018**. [paper](http://papers.nips.cc/paper/7473-embedding-logical-queries-on-knowledge-graphs) [reviews](http://media.nips.cc/nipsbooks/nipspapers/paper_files/nips31/reviews/1018.html) [code](https://github.com/williamleif/graphqembed) :fire:
 
+- <a name="HolEX"></a> **(HolEX)** Yexiang Xue, Yang Yuan, Zhitian Xu, Ashish Sabharwal. "**Expanding Holographic Embeddings for Knowledge Completion**". **NeurIPS 2018**. [paper](https://proceedings.neurips.cc/paper/2018/hash/dd28e50635038e9cf3a648c2dd17ad0a-Abstract.html)
+
 - <a name="SimplE"></a> **(SimplE)** Seyed Mehran Kazemi, David Poole. "**SimplE Embedding for Link Prediction in Knowledge Graphs**". **NeurIPS 2018**. [paper](http://papers.nips.cc/paper/7682-simple-embedding-for-link-prediction-in-knowledge-graphs) [reviews](http://media.nips.cc/nipsbooks/nipspapers/paper_files/nips31/reviews/2093.html) [code](https://github.com/Mehran-k/SimplE) :fire:
+
+- <a name="M-Walk"></a> **(M-Walk)** Yelong Shen, Jianshu Chen, Po-Sen Huang, Yuqing Guo, Jianfeng Gao. "**M-Walk: Learning to Walk over Graphs using Monte Carlo Tree Search**". **NeurIPS 2018**. [paper](https://proceedings.neurips.cc/paper/2018/hash/c6f798b844366ccd65d99bc7f31e0e02-Abstract.html)
 
 ##### ACL
 
@@ -614,6 +803,8 @@ Welcome to join our small WeChat group via email, to learn and talk about KGE.
 
 - <a name="POE"></a> **(POE)** Luke Vilnis, Xiang Li, Shikhar Murty, Andrew McCallum. "**Probabilistic Embedding of Knowledge Graphs with Box Lattice Measures**". **ACL 2018**. [paper](https://www.aclweb.org/anthology/P18-1025/)
 
+- <a name="TypeComplex"></a> **(TypeComplex)** Prachi Jain, Pankaj Kumar, Mausam, Soumen Chakrabarti. "**Type-Sensitive Knowledge Base Inference Without Explicit Type Supervision**". **ACL 2018**. [paper](https://aclanthology.org/P18-2013/)
+
 ##### ICML
 
 - <a name="ComplEx-N3"></a> **(ComplEx-N3)** Timothée Lacroix, Nicolas Usunier, Guillaume Obozinski. "**Canonical Tensor Decomposition for Knowledge Base Completion**". **ICML 2018**. [paper](http://proceedings.mlr.press/v80/lacroix18a.html) [code](https://github.com/facebookresearch/kbc) :fire:
@@ -621,6 +812,8 @@ Welcome to join our small WeChat group via email, to learn and talk about KGE.
 ##### IJCAI
 
 - <a name="TransAt"></a> **(TransAt)** Wei Qian, Cong Fu, Yu Zhu, Deng Cai, Xiaofei He. "**Translating Embeddings for Knowledge Graph Completion with Relation Attention Mechanism**". **IJCAI 2018**. [paper](https://www.ijcai.org/proceedings/2018/596) [code](https://github.com/ZJULearning/TransAt)
+
+- <a name="RLvLR"></a> **(RLvLR)** Pouya Ghiasnezhad Omran, Kewen Wang, Zhe Wang. Scalable Rule Learning via Learning Representation. **IJCAI 2018**. [paper](https://www.ijcai.org/proceedings/2018/297)
 
 ##### EMNLP
 
@@ -676,11 +869,18 @@ Welcome to join our small WeChat group via email, to learn and talk about KGE.
 
 ##### ESWC
 
+- <a name="RuleN "></a> **(RuleN )** Christian Meilicke, Manuel Fink, Yanjie Wang, Daniel Ruffinelli, Rainer Gemulla, Heiner Stuckenschmidt. "**Fine-Grained Evaluation of Rule- and Embedding-Based Systems for Knowledge Graph Completion**". **ISWC 2018**. [paper](https://link.springer.com/chapter/10.1007%2F978-3-030-00671-6_1)
+##### ESWC
+
 - <a name="R-GCN"></a> **(R-GCN)** Michael Schlichtkrull, Thomas N. Kipf, Peter Bloem, Rianne van den Berg, Ivan Titov, Max Welling. "**Modeling Relational Data with Graph Convolutional Networks**". **ESWC 2018**. [paper](https://link.springer.com/chapter/10.1007%2F978-3-319-93417-4_38) [code](https://github.com/tkipf/relational-gcn) :fire:
+
+- <a name="CoFM"></a> **(CoFM)** Guangyuan Piao, John G. Breslin. "**Transfer Learning for Item Recommendations and Knowledge Graph Completion in Item Related Domains via a Co-Factorization Model**". **ESWC 2018**. [paper](https://link.springer.com/chapter/10.1007%2F978-3-319-93417-4_32)
 
 ##### WWW
 
 - Kaja Zupanc, Jesse Davis. "**Estimating Rule Quality for Knowledge Base Completion with the Relationship between Coverage Assumption**". **WWW 2018**. [paper](https://dl.acm.org/doi/10.1145/3178876.3186006)
+
+- <a name="RAE"></a> **(RAE)** Richong Zhang, Junpeng Li, Jiajie Mei, Yongyi Mao. "**Scalable Instance Reconstruction in Knowledge Bases via Relatedness Affiliated Embedding**". **WWW 2018**. [paper](https://dl.acm.org/doi/10.1145/3178876.3186017)
 
 - <a name="TTransE"></a> **(TTransE)** Julien Leblay, Melisachew Wudage Chekol. "**Deriving Validity Time in Knowledge Graph**". **WWW 2018**. [paper](https://dl.acm.org/doi/10.1145/3184558.3191639)
 
@@ -711,7 +911,6 @@ Welcome to join our small WeChat group via email, to learn and talk about KGE.
 ##### Journal of Machine Learning Research
 
 - Chengchun Shi, Wenbin Lu, Rui Song. "**Determining the Number of Latent Factors in Statistical Multi-Relational Learning**". **J. Mach. Learn. Res. 2019**. **Impact 3.484**. [paper](http://jmlr.org/papers/v20/18-037.html)
-
 
 #### Conference
 
@@ -745,9 +944,11 @@ Welcome to join our small WeChat group via email, to learn and talk about KGE.
 
 - <a name="QuatE"></a> **(QuatE)** Shuai Zhangy, Yi Tay, Lina Yao, Qi Liu. "**Quaternion Knowledge Graph Embeddings**". **NeurIPS 2019**. [paper](http://papers.nips.cc/paper/8541-quaternion-knowledge-graph-embeddings) [code](https://github.com/cheungdaven/QuatE) :fire:
 
-- Meng Qu, Jian Tang. "**Probabilistic Logic Neural Networks for Reasoning**". **NeurIPS 2019**. [paper](https://proceedings.neurips.cc/paper/2019/hash/13e5ebb0fa112fe1b31a1067962d74a7-Abstract.html)
+- <a name="pLogicNet"></a> **(pLogicNet)** Meng Qu, Jian Tang. "**Probabilistic Logic Neural Networks for Reasoning**". **NeurIPS 2019**. [paper](https://proceedings.neurips.cc/paper/2019/hash/13e5ebb0fa112fe1b31a1067962d74a7-Abstract.html)
 
 ##### ACL
+
+- <a name="A2N"></a> **(A2N)** Trapit Bansal, Da-Cheng Juan, Sujith Ravi, Andrew McCallum. "**A2N: Attending to Neighbors for Knowledge Graph Inference**". **ACL 2019**. [paper](https://aclanthology.org/P19-1431/)
 
 - <a name="DihEdral"></a> **(DihEdral)** Canran Xu, Ruijiang Li. "**Relation Embedding with Dihedral Group in Knowledge Graph**". **ACL 2019**. [paper](https://www.aclweb.org/anthology/P19-1026/)
 
@@ -764,6 +965,8 @@ Welcome to join our small WeChat group via email, to learn and talk about KGE.
 - <a name="Attack"></a> **(Attack)** Hengtong Zhang, Tianhang Zheng, Jing Gao, Chenglin Miao, Lu Su, Yaliang Li, Kui Ren. "**Data Poisoning Attack against Knowledge Graph Embedding**". **IJCAI 2019**. CCF A. Cite 6. [paper](https://www.ijcai.org/proceedings/2019/674)
 
 - <a name="M-GNN"></a> **(M-GNN)** Zihan Wang, Zhaochun Ren, Chunyu He, Peng Zhang, Yue Hu. "**Robust Embedding with Multi-Level Structures for Link Prediction**". **IJCAI 2019**. [paper](https://www.ijcai.org/proceedings/2019/728)
+
+- <a name="RDGCN"></a> **(RDGCN)** Yuting Wu, Xiao Liu, Yansong Feng, Zheng Wang, Rui Yan, Dongyan Zhao. "**Relation-Aware Entity Alignment for Heterogeneous Knowledge Graphs**". **IJCAI 2019**. [paper](https://www.ijcai.org/proceedings/2019/733)
 
 -  <a name="TransMS"></a> **(TransMS)** Shihui Yang, Jidong Tian, Honglun Zhang, Junchi Yan, Hao He, Yaohui Jin. "**TransMS: Knowledge Graph Embedding for Complex Relations by Multidirectional Semantics**". **IJCAI 2019**. [paper](https://www.ijcai.org/proceedings/2019/268)
 
@@ -853,6 +1056,8 @@ Welcome to join our small WeChat group via email, to learn and talk about KGE.
 
 - <a name="NaLP"></a> **(NaLP)** Saiping Guan, Xiaolong Jin, Yuanzhuo Wang, Xueqi Cheng. "**Link Prediction on N-ary Relational Data**". **WWW 2019**. [paper](https://dl.acm.org/doi/10.1145/3308558.3313414) [code](https://github.com/gsp2014/NaLP)
 
+- <a name="KTUP"></a> **(KTUP)** Yixin Cao, Xiang Wang, Xiangnan He, Zikun Hu, Tat-Seng Chua. "**Unifying Knowledge Graph Learning and Recommendation: Towards a Better Understanding of User Preferences**". **WWW 2019**. [paper](https://dl.acm.org/doi/10.1145/3308558.3313705)
+
 ##### ICASSP
 
 - <a name="GRNN"></a> **(GRNN)** Vassilis N. Ioannidis, Antonio G. Marques, Georgios B. Giannakis. "**A Recurrent Graph Neural Network for Multi-relational Data**". **ICASSP 2019**. [paper](https://ieeexplore.ieee.org/document/8682836)
@@ -903,6 +1108,8 @@ Welcome to join our small WeChat group via email, to learn and talk about KGE.
 
 ##### ICLR
 
+- <a name="Calibration"></a> **(Calibration)** Pedro Tabacof, Luca Costabello. "**Probability Calibration for Knowledge Graph Embedding Models**". **ICLR 2020**. [paper](https://openreview.net/forum?id=S1g8K1BFwS)
+
 - <a name="CompGCN"></a> **(CompGCN)** Shikhar Vashishth, Soumya Sanyal, Vikram Nitin, Partha Talukdar. "**Composition-based Multi-Relational Graph Convolutional Networks**". **ICLR 2020**. [paper](https://openreview.net/forum?id=BylA_C4tPr) [code](https://github.com/malllabiisc/CompGCN) :fire:
 
 - <a name="DPMPN"></a> **(DPMPN)** Xiaoran Xu, Wei Feng, Yunsheng Jiang, Xiaohui Xie, Zhiqing Sun, Zhi-Hong Deng. "**Dynamically Pruned Message Passing Networks for Large-scale Knowledge Graph Reasoning**". **ICLR 2020**. [paper](https://openreview.net/forum?id=rkeuAhVKvB) [code](https://github.com/netpaladinx/DPMPN)
@@ -910,8 +1117,6 @@ Welcome to join our small WeChat group via email, to learn and talk about KGE.
 - <a name="DrKIT"></a> **(DrKIT)** Bhuwan Dhingra, Manzil Zaheer, Vidhisha Balachandran, Graham Neubig, Ruslan Salakhutdinov, William W. Cohen. "**Differentiable Reasoning over a Virtual Knowledge Base**". **ICLR 2020**. [paper](https://openreview.net/forum?id=SJxstlHFPH) [code](https://github.com/google-research/language/tree/master/language/labs/drkit) :fire:
 
 - <a name="Neural-LP-N"></a> **(Neural-LP-N)** Po-Wei Wang, Daria Stepanova, Csaba Domokos, J. Zico Kolter. "**Differentiable learning of numerical rules in knowledge graphs**". **ICLR 2020**. [paper](https://openreview.net/forum?id=rJleKgrKwS)
-
-- <a name="Probability"></a> **(Probability)** Pedro Tabacof, Luca Costabello. "**Probability Calibration for Knowledge Graph Embedding Models**". **ICLR 2020**. [paper](https://openreview.net/forum?id=S1g8K1BFwS)
 
 - <a name="Q2B"></a> **(Q2B)** Hongyu Ren, Weihua Hu, Jure Leskovec. "**Query2box: Reasoning over Knowledge Graphs in Vector Space Using Box Embeddings**". **ICLR 2020**. [paper](https://openreview.net/forum?id=BJgr4kSFDS) [code](https://github.com/hyren/query2box) :fire:
 
@@ -926,6 +1131,8 @@ Welcome to join our small WeChat group via email, to learn and talk about KGE.
 - <a name="CoPER"></a> **(CoPER)** George Stoica, Otilia Stretcu, Anthony Platanios, Tom Mitchell, Barnabas Poczos. "**Contextual Parameter Generation for Knowledge Graph Link Prediction**". **AAAI 2020**. [paper](https://aaai.org/ojs/index.php/AAAI/article/view/5693) [code](https://github.com/otiliastr/coper)
 
 - <a name="DE-SimplE"></a> **(DE-SimplE)** Rishab Goel, Seyed Mehran Kazemi, Marcus Brubaker, Pascal Poupart. "**Diachronic Embedding for Temporal Knowledge Graph Completion**". **AAAI 2020**. [paper](https://aaai.org/ojs/index.php/AAAI/article/view/5815) [code](https://github.com/BorealisAI/DE-SimplE) :fire:
+
+- <a name="EvolveGCN"></a> **(EvolveGCN)** Aldo Pareja, Giacomo Domeniconi, Jie Chen, Tengfei Ma, Toyotaro Suzumura, Hiroki Kanezashi, Tim Kaler, Tao B. Schardl, Charles E. Leiserson. "**EvolveGCN: Evolving Graph Convolutional Networks for Dynamic Graphs**". **AAAI 2020**. [paper](https://ojs.aaai.org//index.php/AAAI/article/view/5984)
 
 - <a name="FSRL"></a> **(FSRL)** Chuxu Zhang, Huaxiu Yao, Chao Huang, Meng Jiang, Zhenhui Li, Nitesh V. Chawla. "**Few-Shot Knowledge Graph Completion**". **AAAI 2020**. [paper](https://aaai.org/ojs/index.php/AAAI/article/view/5698) [code](https://github.com/chuxuzhang/AAAI2020_FSRL)
 
@@ -969,11 +1176,13 @@ Welcome to join our small WeChat group via email, to learn and talk about KGE.
 
 ##### ACL
 
+- <a name="ATTH"></a> **(ATTH)** Ines Chami, Adva Wolf, Da-Cheng Juan, Frederic Sala, Sujith Ravi and Christopher Ré. "**Low-Dimensional Hyperbolic Knowledge Graph Embeddings**". **ACL 2020**. [paper](https://www.aclweb.org/anthology/2020.acl-main.617/) [code](https://github.com/HazyResearch/KGEmb)
+
 - <a name="Compression"></a> **(Compression)** Mrinmaya Sachan. "**Knowledge Graph Embedding Compression**". **ACL 2020**. [paper](https://www.aclweb.org/anthology/2020.acl-main.238/)
 
 - <a name="ConnectE"></a> **(ConnectE)** Yu Zhao, anxiang zhang, Ruobing Xie, Kang Liu and Xiaojie WANG. "**Connecting Embeddings for Knowledge Graph Entity Typing**". **ACL 2020**. [paper](https://www.aclweb.org/anthology/2020.acl-main.572/) [code](https://github.com/Adam1679/ConnectE)
 
-- <a name="HypKGE"></a> **(HypKGE)** Ines Chami, Adva Wolf, Da-Cheng Juan, Frederic Sala, Sujith Ravi and Christopher Ré. "**Low-Dimensional Hyperbolic Knowledge Graph Embeddings**". **ACL 2020**. [paper](https://www.aclweb.org/anthology/2020.acl-main.617/) [code](https://github.com/HazyResearch/KGEmb)
+- <a name="NeuInfer"></a> **(NeuInfer)**  Saiping Guan, Xiaolong Jin, Jiafeng Guo, Yuanzhuo Wang, Xueqi Cheng. "**NeuInfer: Knowledge Inference on N-ary Facts**". **ACL 2020**. [paper](https://aclanthology.org/2020.acl-main.546/)
 
 - <a name="OLP"></a> **(OLP)** Samuel Broscheit, Kiril Gashteovski, Yanjie Wang, Rainer Gemulla. "**Can We Predict New Facts with Open Knowledge Graph Embeddings? A Benchmark for Open Link Prediction**". **ACL 2020**. [paper](https://www.aclweb.org/anthology/2020.acl-main.209/) [code](https://github.com/samuelbroscheit/open_knowledge_graph_embeddings)
 
@@ -989,13 +1198,15 @@ Welcome to join our small WeChat group via email, to learn and talk about KGE.
 
 - <a name="LowFER"></a> **(LowFER)** Saadullah Amin, Stalin Varanasi, Katherine Ann Dunfield, Günter Neumann. "**LowFER: Low-rank Bilinear Pooling for Link Prediction**". **ICML 2020**. [paper](http://proceedings.mlr.press/v119/amin20a) [code](https://github.com/suamin/LowFER)
 
+- <a name="GraIL"></a> **(GraIL)** Komal K. Teru, Etienne Denis, Will Hamilton. "**Inductive Relation Prediction by Subgraph Reasoning**". **ICML 2020**. [paper](http://proceedings.mlr.press/v119/teru20a.html)
+
 ##### IJCAI
 
 - <a name="DArtNet"></a> **(DArtNet)** Sankalp Garg, Navodita Sharma, Woojeong Jin, Xiang Ren. "**Temporal Attribute Prediction via Joint Modeling of Multi-Relational Structure Evolution**". **IJCAI 2020**. [paper](https://www.ijcai.org/Proceedings/2020/386) [code](https://github.com/INK-USC/DArtNet)
 
-- <a name="HRL"></a> **(HRL)** Guojia Wan, Shirui Pan, Chen Gong, Chuan Zhou, Gholamreza Haffari. "**Reasoning Like Human: Hierarchical Reinforcement Learning for Knowledge Graph Reasoning**". **IJCAI 2020**. [paper](https://www.ijcai.org/proceedings/2020/267)
-
 - <a name="HypE"></a> **(HypE)** Bahare Fatemi, Perouz Taslakian, David Vázquez, David Poole. "**Knowledge Hypergraphs: Prediction Beyond Binary Relations**". **IJCAI 2020**. [paper](https://www.ijcai.org/Proceedings/2020/303) [code](https://github.com/baharefatemi/HypE)
+
+- <a name="RLH"></a> **(RLH)** Guojia Wan, Shirui Pan, Chen Gong, Chuan Zhou, Gholamreza Haffari. "**Reasoning Like Human: Hierarchical Reinforcement Learning for Knowledge Graph Reasoning**". **IJCAI 2020**. [paper](https://www.ijcai.org/proceedings/2020/267)
 
 - <a name="TransRHS"></a> **(TransRHS)** Fuxiang Zhang, Xin Wang, Zhao Li, Jianxin Li. "**TransRHS: A Representation Learning Method for Knowledge Graphs with Relation Hierarchical Structure**". **IJCAI 2020**. [paper](https://doi.org/10.24963/ijcai.2020/413) [code](https://github.com/tjuzhangfx/TransRHS)
 
@@ -1005,11 +1216,11 @@ Welcome to join our small WeChat group via email, to learn and talk about KGE.
 
 - <a name="B-CP"></a> **(B-CP)** Katsuhiko Hayashi, Koki Kishimoto, Masashi Shimbo. "**A Greedy Bit-flip Training Algorithm for Binarized Knowledge Graph Embeddings**". **EMNLP (Findings) 2020**. [paper](https://www.aclweb.org/anthology/2020.findings-emnlp.10/)
 
-- <a name="BERT+CTF"></a> **(BERT+CTF)** Zhenjie Zhao, Evangelos E. Papalexakis, Xiaojuan Ma. "**Learning Physical Common Sense as Knowledge Graph Completion via BERT Data Augmentation and Constrained Tucker Factorization**". **EMNLP 2020**. [paper](https://www.aclweb.org/anthology/2020.emnlp-main.266/)
-
 - <a name="CoDEx"></a> **(CoDEx)** Tara Safavi, Danai Koutra. "**CoDEx: A Comprehensive Knowledge Graph Completion Benchmark**". **EMNLP 2020**. [paper](https://www.aclweb.org/anthology/2020.emnlp-main.669/)
 
 - <a name="Confidence"></a> **(Confidence)** JTara Safavi, Danai Koutra, Edgar Meij. "**Evaluating the Calibration of Knowledge Graph Embeddings for Trustworthy Link Prediction**". **EMNLP 2020**. [paper](https://www.aclweb.org/anthology/2020.emnlp-main.667/)
+
+- <a name="DA+CSTR"></a> **(DA+CSTR)** Zhenjie Zhao, Evangelos E. Papalexakis, Xiaojuan Ma. "**Learning Physical Common Sense as Knowledge Graph Completion via BERT Data Augmentation and Constrained Tucker Factorization**". **EMNLP 2020**. [paper](https://www.aclweb.org/anthology/2020.emnlp-main.266/)
 
 - <a name="DacKGR"></a> **(DacKGR)** Xin Lv, Xu Han, Lei Hou, Juanzi Li, Zhiyuan Liu, Wei Zhang, Yichi Zhang, Hao Kong, Suhui Wu. "**Dynamic Anticipation and Completion for Multi-Hop Reasoning over Sparse Knowledge Graph**". **EMNLP 2020**. [paper](https://www.aclweb.org/anthology/2020.emnlp-main.667/) [code](https://github.com/THU-KEG/DacKGR)
 
@@ -1031,7 +1242,11 @@ Welcome to join our small WeChat group via email, to learn and talk about KGE.
 
 - <a name="oDistMult"></a> **(oDistMult)** Marjan Albooyeh, Rishab Goel, Seyed Mehran Kazemi. "**Out-of-Sample Representation Learning for Knowledge Graphs**". **EMNLP (Findings) 2020**. [paper](https://www.aclweb.org/anthology/2020.findings-emnlp.241/)
 
-- <a name="RE-Net"></a> **(RE-Net)** Woojeong Jin, Meng Qu, Xisen Jin, Xiang Ren. "**Recurrent Event Network: Autoregressive Structure Inferenceover Temporal Knowledge Graphs**". **EMNLP 2020**. [paper](https://www.aclweb.org/anthology/2020.emnlp-main.541/) [code](https://github.com/INK-USC/RE-Net)
+- <a name="PCBR"></a> **(PCBR)** Rajarshi Das, Ameya Godbole, Nicholas Monath, Manzil Zaheer, Andrew McCallum. "**Probabilistic Case-based Reasoning in Knowledge Bases**". **EMNLP (Findings) 2020**. [paper](https://aclanthology.org/2020.findings-emnlp.427/)
+
+- <a name="Pretrain-KGE"></a> **(Pretrain-KGE)** Zhiyuan Zhang, Xiaoqian Liu, Yi Zhang, Qi Su, Xu Sun, Bin He. "**Pretrain-KGE: Learning Knowledge Representation from Pretrained Language Models**". **EMNLP (Findings) 2020**. [paper](https://aclanthology.org/2020.findings-emnlp.25/)
+
+- <a name="RE-NET"></a> **(RE-NET)** Woojeong Jin, Meng Qu, Xisen Jin, Xiang Ren. "**Recurrent Event Network: Autoregressive Structure Inferenceover Temporal Knowledge Graphs**". **EMNLP 2020**. [paper](https://www.aclweb.org/anthology/2020.emnlp-main.541/) [code](https://github.com/INK-USC/RE-Net)
 
 - <a name="RuleGuider"></a> **(RuleGuider)** Deren Lei, Gangrong Jiang, Xiaotao Gu, Kexuan Sun, Yuning Mao, Xiang Ren. "**Learning Collaborative Agents with Rule Guidance for Knowledge Graph Reasoning**". **EMNLP 2020**. [paper](https://www.aclweb.org/anthology/2020.emnlp-main.688/)
 
@@ -1061,17 +1276,21 @@ Welcome to join our small WeChat group via email, to learn and talk about KGE.
 
 - <a name="GeomE"></a> **(GeomE)** Chengjin Xu, Mojtaba Nayyeri, Yung-Yu Chen, Jens Lehmann. "**Knowledge Graph Embeddings in Geometric Algebras**". **COLING 2020**. [paper](https://www.aclweb.org/anthology/2020.coling-main.46/)
 
-- <a name="RatE"></a> **(RatE)** Hao Huang, Guodong Long, Tao Shen, Jing Jiang, Chengqi Zhang. "**RatE: Relation-Adaptive Translating Embedding for Knowledge Graph Completion**". **COLING 2020**. [paper](https://www.aclweb.org/anthology/2020.coling-main.48/)
-
 - <a name="IntKB"></a> **(IntKB)** Bernhard Kratzwald, Guo Kunpeng, Stefan Feuerriegel, Dennis Diefenbach. "**IntKB: A Verifiable Interactive Framework for Knowledge Base Completion**". **COLING 2020**. [paper](https://www.aclweb.org/anthology/2020.coling-main.490/)
 
+- <a name="KD-MKB"></a> **(KD-MKB)** Raphaël Sourty, Jose G. Moreno, François-Paul Servant, Lynda Tamine-Lechani. "**Knowledge Base Embedding By Cooperative Knowledge Distillation**". **COLING 2020**. [paper](https://aclanthology.org/2020.coling-main.489/)
+
 - <a name="KG-BERT"></a> **(KG-BERT)** Bosung Kim, Taesuk Hong, Youngjoong Ko, Jungyun Seo. "**Multi-Task Learning for Knowledge Graph Completion with Pre-trained Language Models**". **COLING 2020**. [paper](https://www.aclweb.org/anthology/2020.coling-main.153/)
+
+- <a name="RatE"></a> **(RatE)** Hao Huang, Guodong Long, Tao Shen, Jing Jiang, Chengqi Zhang. "**RatE: Relation-Adaptive Translating Embedding for Knowledge Graph Completion**". **COLING 2020**. [paper](https://www.aclweb.org/anthology/2020.coling-main.48/)
 
 - <a name="TeRo"></a> **(TeRo)** Chengjin Xu, Mojtaba Nayyeri, Fouad Alkhoury, Hamed Shariat Yazdi, Jens Lehmann. "**TeRo: A Time-aware Knowledge Graph Embedding via Temporal Rotation**". **COLING 2020**. [paper](https://www.aclweb.org/anthology/2020.coling-main.139/) [code](https://github.com/soledad921/ATISE)
 
 ##### UAI
 
 - <a name="Strat-Hits"></a> **(Strat-Hits)** Aisha Mohamed, Shameem Puthiya Parambath, Zoi Kaoudi, Ashraf Aboulnaga. "**Popularity Agnostic Evaluation of Knowledge Graph Embeddings**". **UAI 2020**. [paper](http://proceedings.mlr.press/v124/mohamed20a.html)
+
+- <a name="TRACTOR"></a> **(TRACTOR)** Tal Friedman, Guy Van den Broeck. "**Symbolic Querying of Vector Spaces: Probabilistic Databases Meets Relational Embeddings**". **UAI 2020**. [paper](http://proceedings.mlr.press/v124/friedman20a.html)
 
 ##### AAMAS
 
@@ -1105,27 +1324,31 @@ Welcome to join our small WeChat group via email, to learn and talk about KGE.
 
 - <a name="SLRE"></a> **(SLRE)** Shu Guo, Lin Li, Zhen Hui, Lingshuai Meng, Bingnan Ma, Wei Liu, Lihong Wang, Haibin Zhai, Hong Zhang. "**Knowledge Graph Embedding Preserving Soft Logical Regularity**". **CIKM 2020**. [paper](https://dl.acm.org/doi/10.1145/3340531.3412055) [code](https://github.com/StudyGroup-lab/SLRE)
 
-- <a name="ToKE"></a> **(ToKE)** Julien Leblay, Melisachew Wudage Chekol, Xin Liu. "**Towards Temporal Knowledge Graph Embeddings with Arbitrary Time Precision**". **CIKM 2020**. [paper](https://dl.acm.org/doi/10.1145/3340531.3412028)
+- <a name="ToKE"></a> **(ToKE)** Julien Leblay, Melisachew Wudage Chekol, Xin Liu. "**Towards Temporal Knowledge Graph Embeddings with Arbitrary Time Precision**". **CIKM 2020**. [paper](https://dl.acm.org/doi/10.1145/3340531.3412028) [code](https://gitlab.com/jleblay/tokei)
 
-##### WSDM
+##### DASFAA
 
-- Da Xu, Chuanwei Ruan, Jason Cho, Evren Körpeoglu, Sushant Kumar, Kannan Achan. "**Knowledge-aware Complementary Product Representation Learning**". **WSDM 2020**. [paper](https://doi.org/10.1145/3336191.3371854) [code](https://github.com/StatsDLMathsRecomSys/Knowledge-aware-complementary-product-representation-learning)
+- <a name="PDKE"></a> **(PDKE)** Sicong Dong, Xin Wang, Lele Chai, Jianxin Li, Yajun Yang. "**PDKE: An Efficient Distributed Embedding Framework for Large Knowledge Graphs**". **DASFAA 2020**. [paper](https://link.springer.com/chapter/10.1007%2F978-3-030-59416-9_35)
 
 ##### ISWC
 
 - <a name="ATiSE"></a> **(ATiSE)** Chenjin Xu, Mojtaba Nayyeri, Fouad Alkhoury, Hamed Shariat Yazdi, Jens Lehmann. "**Temporal Knowledge Graph Completion Based on Time Series Gaussian Embedding**". **ISWC 2020**. [paper](https://link.springer.com/chapter/10.1007%2F978-3-030-62419-4_37) [code](https://github.com/soledad921/ATISE)
 
-- <a name="EKGR"></a> **(EKGR)** Rajarshi Bhowmik, Gerard de Melo. "**Explainable Link Prediction for Emerging Entities in Knowledge Graphs**". **ISWC 2020**. [paper](https://link.springer.com/chapter/10.1007%2F978-3-030-62419-4_3) [code](https://github.com/kingsaint/InductiveExplainableLinkPrediction)
+- <a name="BCRL"></a> **(BCRL)** Gang Wu, Wenfang Wu, Leilei Li, Guodong Zhao, Donghong Han, Baiyou Qiao. "**BCRL: Long Text Friendly Knowledge Graph Representation Learning**". **ISWC 2020**. [paper](https://link.springer.com/chapter/10.1007%2F978-3-030-62419-4_36)
 
-- <a name="BCRL"></a> Gang Wu, Wenfang Wu, Leilei Li, Guodong Zhao, Donghong Han, Baiyou Qiao. "**BCRL: Long Text Friendly Knowledge Graph Representation Learning**". **ISWC 2020**. [paper](https://link.springer.com/chapter/10.1007%2F978-3-030-62419-4_36)
+- <a name="IELP"></a> **(IELP)** Rajarshi Bhowmik, Gerard de Melo. "**Explainable Link Prediction for Emerging Entities in Knowledge Graphs**". **ISWC 2020**. [paper](https://link.springer.com/chapter/10.1007%2F978-3-030-62419-4_3) [code](https://github.com/kingsaint/InductiveExplainableLinkPrediction)
 
-- Mojtaba Nayyeri, Chengjin Xu, Sahar Vahdati, Nadezhda Vassilyeva, Emanuel Sallinger, Hamed Shariat Yazdi, Jens Lehmann. "**Fantastic Knowledge Graph Embeddings and How to Find the Right Space for Them**". **ISWC 2020**. [paper](https://link.springer.com/chapter/10.1007%2F978-3-030-62419-4_25)
+- <a name="SpacE"></a> **(SpacE)** Mojtaba Nayyeri, Chengjin Xu, Sahar Vahdati, Nadezhda Vassilyeva, Emanuel Sallinger, Hamed Shariat Yazdi, Jens Lehmann. "**Fantastic Knowledge Graph Embeddings and How to Find the Right Space for Them**". **ISWC 2020**. [paper](https://link.springer.com/chapter/10.1007%2F978-3-030-62419-4_25)
 
 ##### ICDM
 
-- Susheel Suresh, Jennifer Neville. "**A Hybrid Model for Learning Embeddings and Logical Rules Simultaneously from Knowledge Graphs**". **ICDM 2020**. [paper](https://ieeexplore.ieee.org/document/9338353)
+- <a name="HybridER"></a> **(HybridER)** Susheel Suresh, Jennifer Neville. "**A Hybrid Model for Learning Embeddings and Logical Rules Simultaneously from Knowledge Graphs**". **ICDM 2020**. [paper](https://ieeexplore.ieee.org/document/9338353)
+
+- <a name="LineaRE"></a> **(LineaRE)** Yanhui Peng, Jing Zhang. "**LineaRE: Simple but Powerful Knowledge Graph Embedding for Link Prediction**". **ICDM 2020**. [paper](https://ieeexplore.ieee.org/document/9338434)
 
 ##### ESWC
+
+- <a name="FAMER"></a> **(FAMER)** Alieh Saeedi, Eric Peukert, Erhard Rahm. "**Incremental Multi-source Entity Resolution for Knowledge Graph Completion**". **ESWC 2020**. [paper](https://link.springer.com/chapter/10.1007%2F978-3-030-49461-2_23)
 
 - <a name="HyperKG"></a> **(HyperKG)** Prodromos Kolyvakis, Alexandros Kalousis, Dimitris Kiritsis. "**Hyperbolic Knowledge Graph Embeddings for Knowledge Base Completion**". **ESWC 2020**. [paper](https://doi.org/10.1007/978-3-030-49461-2_12) [code](https://github.com/prokolyvakis/hyperkg)
 
@@ -1133,7 +1356,7 @@ Welcome to join our small WeChat group via email, to learn and talk about KGE.
 
 ##### WWW
 
-- <a name="KG_Curation"></a> **(KG_Curation)** Jiaoyan Chen, Xi Chen, Ian Horrocks, Ernesto Jiménez-Ruiz, Erik B. Myklebust. "**Correcting Knowledge Base Assertions**". **WWW 2020**. [paper](https://dl.acm.org/doi/10.1145/3366423.3380226) [code](https://github.com/ChenJiaoyan/KG_Curation)
+- <a name="Curation"></a> **(Curation)** Jiaoyan Chen, Xi Chen, Ian Horrocks, Ernesto Jiménez-Ruiz, Erik B. Myklebust. "**Correcting Knowledge Base Assertions**". **WWW 2020**. [paper](https://dl.acm.org/doi/10.1145/3366423.3380226) [code](https://github.com/ChenJiaoyan/KG_Curation)
 
 - <a name="GETD"></a> **(GETD)** Yu Liu, Quanming Yao, Yong Li. "**Generalizing Tensor Decomposition for N-ary Relational Knowledge Bases**". **WWW 2020**. [paper](https://dl.acm.org/doi/10.1145/3366423.3380188) [code](https://github.com/liuyuaa/GETD)
 
@@ -1142,6 +1365,10 @@ Welcome to join our small WeChat group via email, to learn and talk about KGE.
 - <a name="Subgraph"></a> **(Subgraph)** Unmesh Joshi, Jacopo Urbani. "**Searching for Embeddings in a Haystack: Link Prediction on Knowledge Graphs with Subgraph Pruning**". **WWW 2020**. [paper](https://doi.org/10.1145/3366423.3380043)
 
 - <a name="TDGNN"></a> **(TDGNN)** Liang Qu, Huaisheng Zhu, Qiqi Duan, Yuhui Shi. "**Continuous-Time Link Prediction via Temporal Dependent Graph Neural Network**". **WWW 2020**. [paper](https://dl.acm.org/doi/10.1145/3366423.3380073) [code](https://github.com/Leo-Q-316/TDGNN)
+
+- <a name="UPGAN"></a> **(UPGAN)** Gaole He, Junyi Li, Wayne Xin Zhao, Peiju Liu, Ji-Rong Wen. "**Mining Implicit Entity Preference from User-Item Interaction Data for Knowledge Graph Completion via Adversarial Learning**". **WWW 2020**. [paper](https://dl.acm.org/doi/10.1145/3366423.3380155)
+
+- <a name="wRAN"></a> **(wRAN)** Ningyu Zhang, Shumin Deng, Zhanlin Sun, Jiaoyan Chen, Wei Zhang, Huajun Chen. "**Relation Adversarial Network for Low Resource Knowledge Graph Completion**". **WWW 2020**. [paper](https://dl.acm.org/doi/10.1145/3366423.3380089)
 
 ### 2021
 
@@ -1205,7 +1432,9 @@ Welcome to join our small WeChat group via email, to learn and talk about KGE.
 
 - <a name="ChronoR"></a> **(ChronoR)** Ali Sadeghian, Mohammadreza Armandpour, Anthony Colas, Daisy Zhe Wang. "**ChronoR: Rotation Based Temporal Knowledge Graph Embedding**". **AAAI 2021**. [paper](https://ojs.aaai.org/index.php/AAAI/article/view/16802) [code](https://github.com/CunchaoZ/CyGNet)
 
-- <a name="CyGNet"></a> **(CyGNet)** Cunchao Zhu, Muhao Chen, Changjun Fan, Guangquan Cheng, Yan Zhang. "**Learning from History: Modeling Temporal Knowledge Graphs with Sequential Copy-Generation Networks**". **AAAI 2021**. [paper](https://ojs.aaai.org/index.php/AAAI/article/view/16604)
+- <a name="CLKGE"></a> **(CLKGE)** Mehrnoosh Mirtaheri. "**Relational Learning to Capture the Dynamics and Sparsity of Knowledge Graphs**". **AAAI 2021**. [paper](https://ojs.aaai.org/index.php/AAAI/article/view/17859)
+
+- <a name="CyGNet"></a> **(CyGNet)** Cunchao Zhu, Muhao Chen, Changjun Fan, Guangquan Cheng, Yan Zhang. "**Learning from History: Modeling Temporal Knowledge Graphs with Sequential Copy-Generation Networks**". **AAAI 2021**. [paper](https://ojs.aaai.org/index.php/AAAI/article/view/16604) [code](https://github.com/CunchaoZ/CyGNet)
 
 - <a name="DualE"></a> **(DualE)** Zongsheng Cao, Qianqian Xu, Zhiyong Yang, Xiaochun Cao, Qingming Huang. "**Dual Quaternion Knowledge Graph Embeddings**". **AAAI 2021**. [paper](https://ojs.aaai.org/index.php/AAAI/article/view/16850)
 
@@ -1219,7 +1448,37 @@ Welcome to join our small WeChat group via email, to learn and talk about KGE.
 
 - <a name="TaRP"></a> **(TaRP)** Zijun Cui, Pavan Kapanipathi, Kartik Talamadupula, Tian Gao, Qiang Ji. "**Type-augmented Relation Prediction in Knowledge Graphs**". **AAAI 2021**. [paper](https://ojs.aaai.org/index.php/AAAI/article/view/16879)
 
-- Mehrnoosh Mirtaheri. "**Relational Learning to Capture the Dynamics and Sparsity of Knowledge Graphs**". **AAAI 2021**. [paper](https://ojs.aaai.org/index.php/AAAI/article/view/17859)
+##### ACL
+
+- <a name="CluSTeR"></a> **(CluSTeR)** Zixuan Li, Xiaolong Jin, Saiping Guan, Wei Li, Jiafeng Guo, Yuanzhuo Wang, Xueqi Cheng. "**Search from History and Reason for Future: Two-stage Reasoning on Temporal Knowledge Graphs**". **ACL/IJCNLP 2021**. [paper](https://aclanthology.org/2021.acl-long.365/)
+
+- <a name="EIGAT"></a> **(EIGAT)** Yu Zhao, Han Zhou, Ruobing Xie, Fuzhen Zhuang, Qing Li, Ji Liu. "**Incorporating Global Information in Local Attention for Knowledge Representation Learning**". **ACL/IJCNLP (Findings) 2021**. [paper](https://aclanthology.org/2021.findings-acl.115/)
+
+- <a name="GRAN"></a> **(GRAN)** Quan Wang, Haifeng Wang, Yajuan Lyu, Yong Zhu. "**Link Prediction on N-ary Relational Facts: A Graph-based Approach**". **ACL/IJCNLP (Findings) 2021**. [paper](https://aclanthology.org/2021.findings-acl.35/)
+
+- <a name="HERCULES"></a> **(HERCULES)** Sebastien Montella, Lina Maria Rojas-Barahona, Johannes Heinecke. "**Hyperbolic Temporal Knowledge Graph Embeddings with Relational and Time Curvatures**". **ACL/IJCNLP (Findings) 2021**. [paper](https://aclanthology.org/2021.findings-acl.292/)
+
+- <a name="InferenceAttack"></a> **(InferenceAttack)** Peru Bhardwaj, John D. Kelleher, Luca Costabello, Declan O'Sullivan. "**Poisoning Knowledge Graph Embeddings via Relation Inference Patterns**". **ACL/IJCNLP 2021**. [paper](https://aclanthology.org/2021.acl-long.147/)
+
+- <a name="InferWiki"></a> **(InferWiki)** Yixin Cao, Xiang Ji, Xin Lv, Juanzi Li, Yonggang Wen, Hanwang Zhang. "**Are Missing Links Predictable? An Inferential Benchmark for Knowledge Graph Completion**". **ACL/IJCNLP 2021**. [paper](https://aclanthology.org/2021.acl-long.534/)
+
+- <a name="MLMLM"></a> **(MLMLM)** Louis Clouâtre, Philippe Trempe, Amal Zouaq, Sarath Chandar. "**MLMLM: Link Prediction with Mean Likelihood Masked Language Model**". **ACL/IJCNLP (Findings) 2021**. [paper](https://aclanthology.org/2021.findings-acl.378/)
+
+- <a name="OKGIT"></a> **(OKGIT)** Chandrahas, Partha P. Talukdar. "**OKGIT: Open Knowledge Graph Link Prediction with Implicit Types**". **ACL/IJCNLP (Findings) 2021**. [paper](https://aclanthology.org/2021.findings-acl.225/)
+
+- <a name="PairRE"></a> **(PairRE)** Linlin Chao, Jianshan He, Taifeng Wang, Wei Chu. "**PairRE: Knowledge Graph Embeddings via Paired Relation Vectors**". **ACL/IJCNLP  2021**. [paper](https://aclanthology.org/2021.acl-long.336/)
+
+- <a name="RARL"></a> **(RARL)** Zhongni Hou, Xiaolong Jin, Zixuan Li, Long Bai。"**Rule-Aware Reinforcement Learning for Knowledge Graph Reasoning**". **ACL/IJCNLP (Findings) 2021**. [paper](https://aclanthology.org/2021.findings-acl.412/)
+
+- <a name="SCE"></a> **(SCE)** Hidetaka Kamigaito, Katsuhiko Hayashi. "**Unified Interpretation of Softmax Cross-Entropy and Negative Sampling: With Case Study for Knowledge Graph Embedding**". **ACL/IJCNLP 2021**. [paper](https://aclanthology.org/2021.acl-long.429/)
+
+##### IJCAI
+
+- <a name="FocusE"></a> **(FocusE)** Sumit Pai, Luca Costabello. "**Learning Embeddings from Knowledge Graphs With Numeric Edge Attributes**". **IJCAI 2021**. [paper](https://www.ijcai.org/proceedings/2021/395)
+
+- <a name="HIPNet"></a> **(HIPNet)** Yongquan He, Peng Zhang, Luchen Liu, Qi Liang, Wenyuan Zhang, Chuang Zhang, "**HIP Network: Historical Information Passing Network for Extrapolation Reasoning on Temporal Knowledge Graph**". **IJCAI 2021**. [paper](https://www.ijcai.org/proceedings/2021/264)
+
+- <a name="NIC"></a> **(NIC)** Kai Wang, Yu Liu, Quan Z. Sheng. "**Neighborhood Intervention Consistency: Measuring Confidence for Knowledge Graph Link Prediction**". **IJCAI 2021**. [paper](https://www.ijcai.org/proceedings/2021/288)
 
 ##### NAACL
 
@@ -1235,38 +1494,80 @@ Welcome to join our small WeChat group via email, to learn and talk about KGE.
 
 - <a name="TeLM"></a> **(TeLM)** Chengjin Xu, Yung-Yu Chen, Mojtaba Nayyeri, Jens Lehmann. "**Temporal Knowledge Graph Completion using a Linear Temporal Regularizer and Multivector Embeddings**". **NAACL-HLT 2021**. [paper](https://www.aclweb.org/anthology/2021.naacl-main.202/)
 
+##### KDD
+
+- <a name="KompaRe"></a> **(KompaRe)** Lihui Liu, Boxin Du, Yi Ren Fung, Heng Ji, Jiejun Xu, Hanghang Tong. "**KompaRe: A Knowledge Graph Comparative Reasoning System**". **KDD 2021**. [paper](https://dl.acm.org/doi/10.1145/3447548.3467128)
+
+- <a name="NewLook"></a> **(NewLook)** Lihui Liu, Boxin Du, Heng Ji, ChengXiang Zhai, Hanghang Tong. "**Neural-Answering Logical Queries on Knowledge Graphs**". **KDD 2021**. [paper](https://dl.acm.org/doi/10.1145/3447548.3467375)
+
+- <a name="PathCon"></a> **(PathCon)** Hongwei Wang, Hongyu Ren, Jure Leskovec. "**Relational Message Passing for Knowledge Graph Completion**". **KDD 2021**. [paper](https://dl.acm.org/doi/10.1145/3447548.3467247)
+
+- <a name="RGTN"></a> **(RGTN)** Han Huang, Leilei Sun, Bowen Du, Chuanren Liu, Weifeng Lv, Hui Xiong. "**Representation Learning on Knowledge Graphs for Node Importance Estimation**". **KDD 2021**. [paper](https://dl.acm.org/doi/10.1145/3447548.3467342)
+
+- <a name="T-GAP"></a> **(T-GAP)** Jaehun Jung, Jinhong Jung, U. Kang. "**Learning to Walk across Time for Interpretable Temporal Knowledge Graph Completion**". **KDD 2021**. [paper](https://dl.acm.org/doi/10.1145/3447548.3467292)
+
+##### SIGIR
+
+- <a name="GANA"></a> **(GANA)** Guanglin Niu, Yang Li, Chengguang Tang, Ruiying Geng, Jian Dai, Qiao Liu, Hao Wang, Jian Sun, Fei Huang, Luo Si. "**Relational Learning with Gated and Attentive Neighbor Aggregator for Few-Shot Knowledge Graph Completion**". **SIGIR 2021**. [paper](https://dl.acm.org/doi/10.1145/3404835.3462925)
+
+- <a name="META-KGE"></a> **(META-KGE)** Chanyoung Chung, Joyce Jiyoung Whang. "**Knowledge Graph Embedding via Metagraph Learning**". **SIGIR 2021**.
+
+- <a name="MetaP"></a> **(MetaP)** Zhiyi Jiang, Jianliang Gao, Xinqi Lv. "**MetaP: Meta Pattern Learning for One-Shot Knowledge Graph Completion**". **SIGIR 2021**.
+
+- <a name="RE-GCN"></a> **(RE-GCN)** Zixuan Li, Xiaolong Jin, Wei Li, Saiping Guan, Jiafeng Guo, Huawei Shen, Yuanzhuo Wang, Xueqi Cheng. "**Temporal Knowledge Graph Reasoning Based on Evolutional Representation Learning**". **SIGIR 2021**. [paper](https://dl.acm.org/doi/10.1145/3404835.3462963) [code](https://github.com/Lee-zix/RE-GCN)
+
+- <a name="TIE"></a> **(TIE)** Jiapeng Wu, Yishi Xu, Yingxue Zhang, Chen Ma, Mark Coates, Jackie Chi Kit Cheung. "**TIE: A Framework for Embedding-based Incremental Temporal Knowledge Graph Completion**". **SIGIR 2021**. [code](https://github.com/JiapengWu/Time-Aware-Incremental-Embedding)
+
 ##### ICDE
 
-- Yueji Yang, Yuchen Li, Anthony K. H. Tung. "**NewsLink: Empowering Intuitive News Search with Knowledge Graphs**". **ICDE 2021**. [paper](https://ieeexplore.ieee.org/document/9458619)
-
-- Shimin Di, Quanming Yao, Yongqi Zhang, Lei Chen. "**Efficient Relation-aware Scoring Function Search for Knowledge Graph Embedding**". **ICDE 2021**. [paper](https://ieeexplore.ieee.org/document/9458750)
-
-##### WWW
-
-- Sudhanshu Tiwari, Iti Bansal, Carlos R. Rivero. "**Revisiting the Evaluation Protocol of Knowledge Graph Completion Methods for Link Prediction**". [paper](https://dl.acm.org/doi/10.1145/3442381.3449856)
-
-- Paolo Rosso, Dingqi Yang, Natalia Ostapuk, Philippe Cudré-Mauroux. "**RETA: A Schema-Aware, End-to-End Solution for Instance Completion in Knowledge Graphs**". [paper](https://dl.acm.org/doi/10.1145/3442381.3449883)
-
-- Kai Wang, Yu Liu, Qian Ma, Quan Z. Sheng. "**MulDE: Multi-teacher Knowledge Distillation for Low-dimensional Knowledge Graph Embeddings**". [paper](https://dl.acm.org/doi/10.1145/3442381.3449898)
-
-- Zelong Li, Jianchao Ji, Zuohui Fu, Yingqiang Ge, Shuyuan Xu, Chong Chen, Yongfeng Zhang. "**Efficient Non-Sampling Knowledge Graph Embedding**". [paper](https://dl.acm.org/doi/10.1145/3442381.3449859) [code](https://github.com/rutgerswiselab/NS-KGE)
-		
-- Bo Wang, Tao Shen, Guodong Long, Tianyi Zhou, Ying Wang, Yi Chang. "**Structure-Augmented Text Representation Learning for Efficient Knowledge Graph Completion**". [paper](https://dl.acm.org/doi/10.1145/3442381.3450043) [code](https://github.com/wangbo9719/StAR_KGC)
-
-- Huijuan Wang, Shuangyin Li, Rong Pan. "**An Adversarial Transfer Network for Knowledge Representation Learning**". [paper](https://dl.acm.org/doi/10.1145/3442381.3450064) [code](https://github.com/LemonNoel/ATransN)
-		
-- Shen Wang, Xiaokai Wei, Cicero Nogueira dos Santos, Zhiguo Wang, Ramesh Nallapati, Andrew O. Arnold, Bing Xiang, Philip S. Yu, Isabel F. Cruz. "**Mixed-Curvature Multi-Relational Graph Neural Network for Knowledge Graph Completion**". [paper](https://dl.acm.org/doi/10.1145/3442381.3450118)
-
-- Donghan Yu, Yiming Yang, Ruohong Zhang, Yuexin Wu. "**Knowledge Embedding Based Graph Convolutional Network**". [paper](https://dl.acm.org/doi/10.1145/3442381.3449925)
-
-- Yu Liu, Quanming Yao, Yong Li. "**Role-Aware Modeling for N-ary Relational Knowledge Bases**". [paper](https://dl.acm.org/doi/10.1145/3442381.3449874) [code](https://github.com/liuyuaa/RAM)
-
-- Jinxing Yu, Yunfeng Cai, Mingming Sun, Ping Li. "**MQuadE: a Unified Model for Knowledge Fact Embedding**". [paper](https://dl.acm.org/doi/10.1145/3442381.3449879)
+- <a name="ERAS"></a> **(ERAS)** Shimin Di, Quanming Yao, Yongqi Zhang, Lei Chen. "**Efficient Relation-aware Scoring Function Search for Knowledge Graph Embedding**". **ICDE 2021**. [paper](https://ieeexplore.ieee.org/document/9458750)
 
 ##### WSDM
 
 - <a name="DBKGE"></a> **(DBKGE)** Siyuan Liao, Shangsong Liang, Zaiqiao Meng, Qiang Zhang. "**Learning Dynamic Embeddings for Temporal Knowledge Graphs**". **WSDM 2021**. [paper](https://dl.acm.org/doi/10.1145/3437963.3441741)
 
+##### DASFAA
+
+- <a name="GMUC"></a> **(GMUC)** Jiatao Zhang, Tianxing Wu, Guilin Qi. "**Gaussian Metric Learning for Few-Shot Uncertain Knowledge Graph Completion**". **DASFAA 2021**. [paper](https://link.springer.com/chapter/10.1007%2F978-3-030-73194-6_18)
+
+- <a name="SEwA"></a> **(SEwA)** Zhijuan Du. "**Sequence Embedding for Zero or Low Resource Knowledge Graph Completion**". **DASFAA 2021**. [paper](https://link.springer.com/chapter/10.1007%2F978-3-030-73194-6_20)
+
+- <a name="ST-ConvKB"></a> **(ST-ConvKB)** Jiasheng Zhang, Shuang Liang, Zhiyi Deng, Jie Shao. "**Spatial-Temporal Attention Network for Temporal Knowledge Graph Completion**". **DASFAA 2021**. [paper](https://link.springer.com/chapter/10.1007%2F978-3-030-73194-6_15)
+
+- <a name="TransMTL"></a> **(TransMTL)** Jiaheng Dou, Bing Tian, Yong Zhang, Chunxiao Xing. "**A Novel Embedding Model for Knowledge Graph Completion Based on Multi-Task Learning**". **DASFAA 2021**. [paper](https://link.springer.com/chapter/10.1007%2F978-3-030-73194-6_17)
+
+##### ESWC
+
+- <a name="ConEx"></a> **(ConEx)** Caglar Demir, Axel-Cyrille Ngonga Ngomo. "**Convolutional Complex Knowledge Graph Embeddings**". **ESWC 2021**. [paper](https://link.springer.com/chapter/10.1007%2F978-3-030-77385-4_24)
+
+- <a name="RETRA"></a> **(RETRA)** Simon Werner, Achim Rettinger, Lavdim Halilaj, Jürgen Lüttin. "**RETRA: Recurrent Transformers for Learning Temporally Contextualized Knowledge Graph Embeddings**". **ESWC 2021**. [paper](https://link.springer.com/chapter/10.1007%2F978-3-030-77385-4_25)
+
+- <a name="Semantic"></a> **(Semantic)** Nitisha Jain, Jan-Christoph Kalo, Wolf-Tilo Balke, Ralf Krestel. "**Do Embeddings Actually Capture Knowledge Graph Semantics?**". **ESWC 2021**. [paper](https://link.springer.com/chapter/10.1007%2F978-3-030-77385-4_9)
+
+- <a name="TransROWL"></a> **(TransROWL)** Claudia d'Amato, Nicola Flavio Quatraro, Nicola Fanizzi. "**Injecting Background Knowledge into Embedding Models for Predictive Tasks on Knowledge Graphs**". **ESWC 2021**. [paper](https://link.springer.com/chapter/10.1007%2F978-3-030-77385-4_26)
+
+##### WWW
+
+- <a name="AMIE"></a> **(AMIE)** Sudhanshu Tiwari, Iti Bansal, Carlos R. Rivero. "**Revisiting the Evaluation Protocol of Knowledge Graph Completion Methods for Link Prediction**". **WWW 2021**. [paper](https://dl.acm.org/doi/10.1145/3442381.3449856)
+
+- <a name="ATransN"></a> **(ATransN)** Huijuan Wang, Shuangyin Li, Rong Pan. "**An Adversarial Transfer Network for Knowledge Representation Learning**". **WWW 2021**. [paper](https://dl.acm.org/doi/10.1145/3442381.3450064) [code](https://github.com/LemonNoel/ATransN)
+
+- <a name="KE-GCN"></a> **(KE-GCN)** Donghan Yu, Yiming Yang, Ruohong Zhang, Yuexin Wu. "**Knowledge Embedding Based Graph Convolutional Network**". **WWW 2021**. [paper](https://dl.acm.org/doi/10.1145/3442381.3449925) [code](https://github.com/Lee-zix/RE-GCN)
+
+- <a name="M2GNN"></a> **(M2GNN)** Shen Wang, Xiaokai Wei, Cicero Nogueira dos Santos, Zhiguo Wang, Ramesh Nallapati, Andrew O. Arnold, Bing Xiang, Philip S. Yu, Isabel F. Cruz. "**Mixed-Curvature Multi-Relational Graph Neural Network for Knowledge Graph Completion**". **WWW 2021**. [paper](https://dl.acm.org/doi/10.1145/3442381.3450118)
+
+- <a name="MQuadE"></a> **(MQuadE)** Jinxing Yu, Yunfeng Cai, Mingming Sun, Ping Li. "**MQuadE: a Unified Model for Knowledge Fact Embedding**". **WWW 2021**. [paper](https://dl.acm.org/doi/10.1145/3442381.3449879)
+
+- <a name="MulDE"></a> **(MulDE)** Kai Wang, Yu Liu, Qian Ma, Quan Z. Sheng. "**MulDE: Multi-teacher Knowledge Distillation for Low-dimensional Knowledge Graph Embeddings**". **WWW 2021**. [paper](https://dl.acm.org/doi/10.1145/3442381.3449898)
+
+- <a name="NS-KGE"></a> **(NS-KGE)** Zelong Li, Jianchao Ji, Zuohui Fu, Yingqiang Ge, Shuyuan Xu, Chong Chen, Yongfeng Zhang. "**Efficient Non-Sampling Knowledge Graph Embedding**". **WWW 2021**. [paper](https://dl.acm.org/doi/10.1145/3442381.3449859) [code](https://github.com/rutgerswiselab/NS-KGE)
+
+- <a name="RAW"></a> **(RAW)** Yu Liu, Quanming Yao, Yong Li. "**Role-Aware Modeling for N-ary Relational Knowledge Bases**". **WWW 2021**. [paper](https://dl.acm.org/doi/10.1145/3442381.3449874) [code](https://github.com/liuyuaa/RAM)
+
+- <a name="RETA-Grader"></a> **(RETA-Grader)** Paolo Rosso, Dingqi Yang, Natalia Ostapuk, Philippe Cudré-Mauroux. "**RETA: A Schema-Aware, End-to-End Solution for Instance Completion in Knowledge Graphs**". **WWW 2021**. [paper](https://dl.acm.org/doi/10.1145/3442381.3449883)
+		
+- <a name="StAR"></a> **(StAR)** Bo Wang, Tao Shen, Guodong Long, Tianyi Zhou, Ying Wang, Yi Chang. "**Structure-Augmented Text Representation Learning for Efficient Knowledge Graph Completion**". **WWW 2021**. [paper](https://dl.acm.org/doi/10.1145/3442381.3450043) [code](https://github.com/wangbo9719/StAR_KGC)
+		
 ## Datasets
 
 ### Standard
@@ -1287,9 +1588,7 @@ Welcome to join our small WeChat group via email, to learn and talk about KGE.
 |:----:|:------:|:-----------:|:---:|:-----:|:------:|:------:|:-------:|
 | 2018 | EMNLP  | **[TA-DistMult](#TA-DistMult)** | 276 | 0.477 | 0.363  | -      | 0.686   |
 | 2018 | EMNLP  | **[HyTE](#HyTE)<sup>[DE-SinplE](#DE-SimplE)</sup>** | - | 0.297 | 0.108 | 0.416 | 0.655 |
-| 2020 | AAAI   | **[DE-TransE](#DE-SimplE)** | - | 0.326 | 0.124 | 0.467 | 0.686 |
-| 2020 | AAAI   | **[DE-DistMult](#DE-SimplE)** | - | 0.501 | 0.392 | 0.569 | 0.708 |
+| 2020 | AAAI | **[DE-TransE](#DE-SimplE)** | - | 0.326 | 0.124 | 0.467 | 0.686 |
+| 2020 | AAAI | **[DE-DistMult](#DE-SimplE)** | - | 0.501 | 0.392 | 0.569 | 0.708 |
 | 2020 | AAAI   | **[DE-SimplE](#DE-SimplE)** | - | 0.526 | 0.418 | 0.592 | 0.725 |
 | 2020 | ICLR   | **[TNTComplEx](#TNTComplEx)**  | -   | 0.56  | 0.46   | 0.61   | 0.74    |
-
-
