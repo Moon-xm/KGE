@@ -465,11 +465,7 @@ Thanks for your attention and kind words! We will update KGE later.
 
 - HongYun Cai, Vincent W. Zheng, Kevin Chen-Chuan Chang. "**A Comprehensive Survey of Graph Embedding: Problems, Techniques, and Applications**". **IEEE Transactions on Knowledge and Data Engineering 2018**. [paper](https://ieeexplore.ieee.org/document/8294302)
 
-- Seyed Mehran Kazemi, Rishab Goel, Kshitij Jain, Ivan Kobyzev, Akshay Sethi, Peter Forsyth, Pascal Poupart. "**Relational Representation Learning for Dynamic (Knowledge) Graphs: A Survey**". **CoRR 2019-05**. [paper](https://arxiv.org/abs/1905.11485)
-
-- Shaoxiong Ji, Shirui Pan, Erik Cambria, Pekka Marttinen, Philip S. Yu. "**A Survey on Knowledge Graphs: Representation, Acquisition and Applications**". **CoRR 2020-02**. [paper](https://arxiv.org/abs/2002.00388)
-
-- Andrea Rossi, Donatella Firmani, Antonio Matinata, Paolo Merialdo, Denilson Barbosa. "**Knowledge Graph Embedding for Link Prediction: A Comparative Analysis**". **CoRR 2020-02**. [paper](https://arxiv.org/abs/2002.00819)
+- Andrea Rossi, Donatella Firmani, Antonio Matinata, Paolo Merialdo, Denilson Barbosa. "**Knowledge Graph Embedding for Link Prediction: A Comparative Analysis**". **ACM Trans. Knowl. Discov. Data 2021**. [paper](https://dl.acm.org/doi/10.1145/3424672)
 
 ### 2011
 
@@ -1374,45 +1370,107 @@ Thanks for your attention and kind words! We will update KGE later.
 
 #### Journal
 
-##### Knowledge Based Systems
-
-- <a name="CoRelatE"></a> **(CoRelatE)** Yan Huang, Haili Sun, Ke Xu, Songfeng Lu, Tongyang Wang, Xinfang Zhang. "**CoRelatE: Learning the correlation in multi-fold relations for knowledge graph embedding**". **Knowl. Based Syst. 2021**. **Impact 5.921**. [paper](https://www.sciencedirect.com/science/article/abs/pii/S0950705120307309?via%3Dihub)
-
-- <a name="TimE"></a> **(TimE)** Qianjin Zhang, Ronggui Wang, Juan Yang, Lixia Xue. "**Knowledge graph embedding by translating in time domain space for link prediction**". **Knowl. Based Syst. 2021**. **Impact 5.921**. [paper](https://www.sciencedirect.com/science/article/abs/pii/S0950705120306936?via%3Dihub)
-
-- <a name="TrustE"></a> **(TrustE)** Yu Zhao, Zhiquan Li, Wei Deng, Ruobing Xie, Qing Li. "**Learning entity type structured embeddings with trustworthiness on noisy knowledge graphs**". **Knowl. Based Syst. 2021**. **Impact 5.921**. [paper](https://www.sciencedirect.com/science/article/abs/pii/S0950705120307590?via%3Dihub)
-
-- Zikang Wang, Linjing Li, Daniel Zeng, Xiaofei Wu. "**Incorporating prior knowledge from counterfactuals into knowledge graph reasoning**". **Knowl. Based Syst. 2021**. **Impact 5.921**. [paper](https://www.sciencedirect.com/science/article/abs/pii/S0950705121002987?via%3Dihub)
-
 ##### Neural Networks
 
-- <a name="DAPath"></a> **(DAPath)** Prayag Tiwari, Hongyin Zhu, Hari Mohan Pandey. "**DAPath: Distance-aware knowledge graph reasoning based on deep reinforcement learning**". **Neural Networks 2021**. **Impact 5.5337**. [paper](https://www.sciencedirect.com/science/article/abs/pii/S089360802030410X?via%3Dihub)
+- <a name="DAPath"></a> **(DAPath)** Prayag Tiwari, Hongyin Zhu, Hari Mohan Pandey. "**DAPath: Distance-aware knowledge graph reasoning based on deep reinforcement learning**". **Neural Networks 2021**. **Impact 8.05**. [paper](https://www.sciencedirect.com/science/article/abs/pii/S089360802030410X?via%3Dihub)
 
-- <a name="LSUs"></a> **(LSUs)**  Zhao Zhang, Fuzhen Zhuang, Meng Qu, Zheng-Yu Niu, Hui Xiong, Qing He. "**Knowledge graph embedding with shared latent semantic units**". **Neural Networks 2021**. **Impact 5.5337**. [paper](https://www.sciencedirect.com/science/article/abs/pii/S0893608021000551?via%3Dihub)
+- <a name="HiAM"></a> **(HiAM)** Ting Ma, Shangwen Lv, Longtao Huang, Songlin Hu. "**HiAM: A Hierarchical Attention based Model for knowledge graph multi-hop reasoning**". **Neural Networks 2021**. **Impact 8.05**. [paper](https://www.sciencedirect.com/science/article/abs/pii/S0893608021002409?via%3Dihub)
 
-##### Expert Systems with Applications
+- <a name="LSUs"></a> **(LSUs)** Zhao Zhang, Fuzhen Zhuang, Meng Qu, Zheng-Yu Niu, Hui Xiong, Qing He. "**Knowledge graph embedding with shared latent semantic units**". **Neural Networks 2021**. **Impact 8.05**. [paper](https://www.sciencedirect.com/science/article/abs/pii/S0893608021000551?via%3Dihub)
 
-- <a name="KGEL"></a> **(KGEL)** Adnan Zeb, Anwar Ul Haq, Defu Zhang, Junde Chen, Zhiguo Gong. "**KGEL: A novel end-to-end embedding learning framework for knowledge graph completion**". **Expert Syst. Appl. 2021**. **Impact 5.452**. [paper](https://www.sciencedirect.com/science/article/abs/pii/S0957417420309039?via%3Dihub)
+##### Knowledge Based Systems
+
+- <a name="CoRelatE"></a> **(CoRelatE)** Yan Huang, Haili Sun, Ke Xu, Songfeng Lu, Tongyang Wang, Xinfang Zhang. "**CoRelatE: Learning the correlation in multi-fold relations for knowledge graph embedding**". **Knowl. Based Syst. 2021**. **Impact 8.038**. [paper](https://www.sciencedirect.com/science/article/abs/pii/S0950705120307309?via%3Dihub)
+
+- <a name="CounterFactual"></a> **(CounterFactual)** Zikang Wang, Linjing Li, Daniel Zeng, Xiaofei Wu. "**Incorporating prior knowledge from counterfactuals into knowledge graph reasoning**". **Knowl. Based Syst. 2021**. **Impact 8.038**. [paper](https://www.sciencedirect.com/science/article/abs/pii/S0950705121002987?via%3Dihub)
+
+- <a name="KMAE"></a> **(KMAE)** Dan Jiang, Ronggui Wang, Juan Yang, Lixia Xue. "**Kernel multi-attention neural network for knowledge graph embedding**". **Knowl. Based Syst. 2021**. **Impact 8.038**. [paper](https://www.sciencedirect.com/science/article/abs/pii/S0950705121004500?via%3Dihub)
+
+- <a name="MöbiusE"></a> **(MöbiusE)** Yao Chen, Jiangang Liu, Zhe Zhang, Shiping Wen, Wenjun Xiong. "**MöbiusE: Knowledge Graph Embedding on Möbius Ring**". **Knowl. Based Syst. 2021**. **Impact 8.038**. [paper](https://www.sciencedirect.com/science/article/abs/pii/S0950705121004445?via%3Dihub)
+
+- <a name="MRotatE"></a> **(MRotatE)** Xuqian Huang, Jiuyang Tang, Zhen Tan, Weixin Zeng, Ji Wang, Xiang Zhao. "**Knowledge graph embedding by relational and entity rotation**". **Knowl. Based Syst. 2021**. **Impact 8.038**. [paper](https://www.sciencedirect.com/science/article/pii/S0950705121005724?via%3Dihub)
+
+- <a name="RHGNN"></a> **(RHGNN)** Adnan Zeb, Anwar Ul Haq, Junde Chen, Zhenfeng Lei, Defu Zhang. "**Learning hyperbolic attention-based embeddings for link prediction in knowledge graphs**". **Knowl. Based Syst. 2021**. **Impact 8.038**. [paper](https://www.sciencedirect.com/science/article/abs/pii/S0950705121006316?via%3Dihub)
+
+- <a name="TAGAT"></a> **(TAGAT)** Yuzhuo Wang, Hongzhi Wang, Junwei He, Wenbo Lu, Shuolin Gao. "**TAGAT: Type-Aware Graph Attention neTworks for reasoning over knowledge graphs**". **Knowl. Based Syst. 2021**. **Impact 8.038**. [paper](https://www.sciencedirect.com/science/article/abs/pii/S0950705121007620?via%3Dihub)
+
+- <a name="TimE"></a> **(TimE)** Qianjin Zhang, Ronggui Wang, Juan Yang, Lixia Xue. "**Knowledge graph embedding by translating in time domain space for link prediction**". **Knowl. Based Syst. 2021**. **Impact 8.038**. [paper](https://www.sciencedirect.com/science/article/abs/pii/S0950705120306936?via%3Dihub)
+
+- <a name="Top-k-Query"></a> **(Top-k-Query)** Yuxiang Wang, Xiaoliang Xu, Qifan Hong, Jiahui Jin, Tianxing Wu. "**Top-k star queries on knowledge graphs through semantic-aware bounding match scores**". **Knowl. Based Syst. 2021**. **Impact 8.038**. [paper](https://www.sciencedirect.com/science/article/abs/pii/S095070512030784X?via%3Dihub)
+
+- <a name="TrustE"></a> **(TrustE)** Yu Zhao, Zhiquan Li, Wei Deng, Ruobing Xie, Qing Li. "**Learning entity type structured embeddings with trustworthiness on noisy knowledge graphs**". **Knowl. Based Syst. 2021**. **Impact 8.038**. [paper](https://www.sciencedirect.com/science/article/abs/pii/S0950705120307590?via%3Dihub)
+
+##### Future Generation Computer Systems
+
+- <a name="Hash"></a> **(Hash)** Meng Wang, Weitong Chen, Sen Wang, Yinlin Jiang, Lina Yao, Guilin Qi. "**Efficient search over incomplete knowledge graphs in binarized embedding space**". **Future Gener. Comput. Syst. 2021**. **Impact 7.187**. [paper](https://www.sciencedirect.com/science/article/abs/pii/S0167739X21001217?via%3Dihub)
+
+- <a name="SBIGMat"></a> **(SBIGMat)** Ali Assi, Wajdi Dhifli. "**Instance Matching in Knowledge Graphs through random walks and semantics**". **Future Gener. Comput. Syst. 2021**. **Impact 7.187**. [paper](https://www.sciencedirect.com/science/article/abs/pii/S0167739X21001369?via%3Dihub)
 
 ##### IEEE Transactions on Knowledge and Data Engineering
 
-- Han Xiao, Yidong Chen, Xiaodong Shi. "**Knowledge Graph Embedding Based on Multi-View Clustering Framework**". **IEEE Trans. Knowl. Data Eng. 2021**. **Impact 4.935**. [paper](https://ieeexplore.ieee.org/document/8778709)
+- <a name="KSR"></a> **(KSR)** Han Xiao, Yidong Chen, Xiaodong Shi. "**Knowledge Graph Embedding Based on Multi-View Clustering Framework**". **IEEE Trans. Knowl. Data Eng. 2021**. **Impact 6.977**. [paper](https://ieeexplore.ieee.org/document/8778709)
 
-- <a name="RLvLR"></a> **(RLvLR)** Pouya Ghiasnezhad Omran, Kewen Wang, Zhe Wang. "**An Embedding-Based Approach to Rule Learning in Knowledge Graphs**". **IEEE Trans. Knowl. Data Eng. 2021**. **Impact 4.935**. [paper](https://ieeexplore.ieee.org/document/8839576)
+- <a name="RLvLR"></a> **(RLvLR)** Pouya Ghiasnezhad Omran, Kewen Wang, Zhe Wang. "**An Embedding-Based Approach to Rule Learning in Knowledge Graphs**". **IEEE Trans. Knowl. Data Eng. 2021**. **Impact 6.977**. [paper](https://ieeexplore.ieee.org/document/8839576)
 
-##### Neural Computing and Applications
+- <a name="TAPR"></a> **(TAPR)** Ying Shen, Ning Ding, Hai-Tao Zheng, Yaliang Li, Min Yang. "**Modeling Relation Paths for Knowledge Graph Completion**". **IEEE Trans. Knowl. Data Eng. 2021**. **Impact 6.977**. [paper](https://ieeexplore.ieee.org/document/8974254)
 
-- <a name="NKSGAN"></a> **(NKSGAN)** Hai Liu, Kairong Hu, Fu Lee Wang, Tianyong Hao. "**Correction to: Aggregating neighborhood information for negative sampling for knowledge graph embedding**". **Neural Comput. Appl. 2021**. **Impact 4.774**. [paper](https://link.springer.com/article/10.1007%2Fs00521-020-04940-5)
+##### Expert Systems with Applications
+
+- <a name="KGEL"></a> **(KGEL)** Adnan Zeb, Anwar Ul Haq, Defu Zhang, Junde Chen, Zhiguo Gong. "**KGEL: A novel end-to-end embedding learning framework for knowledge graph completion**". **Expert Syst. Appl. 2021**. **Impact 6.954**. [paper](https://www.sciencedirect.com/science/article/abs/pii/S0957417420309039?via%3Dihub)
+
+- <a name="PRN"></a> **(PRN)** Wan-Kon Lee, Won-Chul Shin, Batselem Jagvaral, Jae-Seung Roh, Min-Sung Kim, Min-Ho Lee, Hyun-Kyu Park, Young-Tack Park. "**A path-based relation networks model for knowledge graph completion**". **Expert Syst. Appl. 2021**. **Impact 6.954**. [paper](https://www.sciencedirect.com/science/article/abs/pii/S0957417421007041?via%3Dihub)
+
+##### Information Sciences
+
+- <a name="Rule-IC"></a> **(Rule-IC)** Qika Lin, Jun Liu, Yudai Pan, Lingling Zhang, Xin Hu, Jie Ma. "**Rule-enhanced iterative complementation for knowledge graph reasoning**". **Inf. Sci. 2021**.  **Impact 6.795**. [paper](https://www.sciencedirect.com/science/article/abs/pii/S0020025521006319?via%3Dihub)
+
+##### Applied Soft Computing
+
+- <a name="TPath"></a> **(TPath)** Luyi Bai, Wenting Yu, Mingzhuo Chen, Xiangnan Ma. "**Multi-hop reasoning over paths in temporal knowledge graphs using reinforcement learning**". **Appl. Soft Comput. 2021**. **Impact 6.725**. [paper](https://www.sciencedirect.com/science/article/abs/pii/S1568494621000673?via%3Dihub)
+
+##### Engineering Applications of Artificial Intelligence
+
+- <a name="CAFE"></a> **(CAFE)** Agustín Borrego, Daniel Ayala, Inma Hernández, Carlos R. Rivero, David Ruiz. "**CAFE: Knowledge graph completion using neighborhood-aware features**. **Eng. Appl. Artif. Intell. 2021**. **Impact 6.212**. [paper](https://www.sciencedirect.com/science/article/pii/S0952197621001500?via%3Dihub)
 
 ##### Neurocomputing 
 
-- Zhifei Li, Hai Liu, Zhaoli Zhang, Tingting Liu, Jiangbo Shu. "**Recalibration convolutional networks for learning interaction knowledge graph embedding**". **Neurocomputing 2021**. **Impact 4.438**. [paper](https://www.sciencedirect.com/science/article/abs/pii/S0925231220318506?via%3Dihub)
+- Zhifei Li, Hai Liu, Zhaoli Zhang, Tingting Liu, Jiangbo Shu. "**Recalibration convolutional networks for learning interaction knowledge graph embedding**". **Neurocomputing 2021**. **Impact 5.719**. [paper](https://www.sciencedirect.com/science/article/abs/pii/S0925231220318506?via%3Dihub)
 
-- Mingda Li, Zhengya Sun, Siheng Zhang, Wensheng Zhang. "**Enhancing knowledge graph embedding with relational constraints**". **Neurocomputing 2021**. **Impact 4.438**. [paper](https://www.sciencedirect.com/science/article/abs/pii/S0925231220318932?via%3Dihub)
+- Mingda Li, Zhengya Sun, Siheng Zhang, Wensheng Zhang. "**Enhancing knowledge graph embedding with relational constraints**". **Neurocomputing 2021**. **Impact 5.719**. [paper](https://www.sciencedirect.com/science/article/abs/pii/S0925231220318932?via%3Dihub)
 
-- Shuangyin Li, Heng Wang, Rong Pan, Mingzhi Mao. "**MemoryPath: A deep reinforcement learning framework for incorporating memory component into knowledge graph reasoning**". **Neurocomputing 2021**. **Impact 4.438**. [paper](https://www.sciencedirect.com/science/article/abs/pii/S0925231220312959?via%3Dihub)
+- Shuangyin Li, Heng Wang, Rong Pan, Mingzhi Mao. "**MemoryPath: A deep reinforcement learning framework for incorporating memory component into knowledge graph reasoning**". **Neurocomputing 2021**. **Impact 5.719**. [paper](https://www.sciencedirect.com/science/article/abs/pii/S0925231220312959?via%3Dihub)
 
-- Qi Wang, Yongsheng Hao, Feng Chen. "**Deepening the IDA algorithm for knowledge graph reasoning through neural network architecture**". **Neurocomputing 2021**. **Impact 4.438**. [paper](https://www.sciencedirect.com/science/article/abs/pii/S0925231220319408?via%3Dihub)
+- Qi Wang, Yongsheng Hao, Feng Chen. "**Deepening the IDA algorithm for knowledge graph reasoning through neural network architecture**". **Neurocomputing 2021**. **Impact 5.719**. [paper](https://www.sciencedirect.com/science/article/abs/pii/S0925231220319408?via%3Dihub)
+
+- Erik Cambria, Shaoxiong Ji, Shirui Pan, Philip S. Yu. "**Knowledge graph representation and reasoning**". **Neurocomputing 2021**. **Impact 5.719**. [paper](https://www.sciencedirect.com/science/article/abs/pii/S092523122100953X?via%3Dihub)
+
+- Chen Li, Xutan Peng, Yuhang Niu, Shanghang Zhang, Hao Peng, Chuan Zhou, Jianxin Li. "**Learning graph attention-aware knowledge graph embedding**". **Neurocomputing 2021**. **Impact 5.719**. [paper](https://www.sciencedirect.com/science/article/abs/pii/S0925231221010961?via%3Dihub)
+
+- Mojtaba Nayyeri, Gökce Müge Cil, Sahar Vahdati, Francesco Osborne, Mahfuzur Rahman, Simone Angioni, Angelo A. Salatino, Diego Reforgiato Recupero, Nadezhda Vassilyeva, Enrico Motta, Jens Lehmann. "**Trans4E: Link prediction on scholarly knowledge graphs**". **Neurocomputing 2021**. **Impact 5.719**. [paper](https://www.sciencedirect.com/science/article/abs/pii/S0925231221009607?via%3Dihub)
+
+- Tianyang Shao, Xinyi Li, Xiang Zhao, Hao Xu, Weidong Xiao. "**DSKRL: A dissimilarity-support-aware knowledge representation learning framework on noisy knowledge graph**". **Neurocomputing 2021**. **Impact 5.719**. [paper](https://www.sciencedirect.com/science/article/abs/pii/S0925231221009590?via%3Dihub) 
+
+- Shensi Wang, Kun Fu, Xian Sun, Zequn Zhang, Shuchao Li, Li Jin. "**Hierarchical-aware relation rotational knowledge graph embedding for link prediction**". **Neurocomputing 2021**. **Impact 5.719**. [paper](https://www.sciencedirect.com/science/article/abs/pii/S0925231221008560?via%3Dihub) 
+
+- Zikang Wang, Linjing Li, Daniel Zeng. "**SRGCN: Graph-based multi-hop reasoning on knowledge graphs**". **Neurocomputing 2021**. **Impact 5.719**. [paper](https://www.sciencedirect.com/science/article/abs/pii/S0925231221007530?via%3Dihub) 
+
+- Yingying Xue, Jiahui Jin, Aibo Song, Yingxue Zhang, Yangyang Liu, Kaixuan Wang. "**Relation-based multi-type aware knowledge graph embedding**". **Neurocomputing 2021**. **Impact 5.719**. [paper](https://www.sciencedirect.com/science/article/abs/pii/S092523122100758X?via%3Dihub) 
+
+- Xiaojuan Zhao, Yan Jia, Aiping Li, Rong Jiang, Kai Chen, Ye Wang. "**Target relational attention-oriented knowledge graph reasoning**". **Neurocomputing 2021**. **Impact 5.719**. [paper](https://www.sciencedirect.com/science/article/abs/pii/S0925231221009668?via%3Dihub) 
+
+##### Neural Computing and Applications
+
+- <a name="BDR+CA"></a> **(BDR+CA)** Kairong Hu, Hai Liu, Choujun Zhan, Yong Tang, Tianyong Hao. "**Learning knowledge graph embedding with a bi-directional relation encoding network and a convolutional autoencoder decoding network**". **Neural Comput. Appl. 2021**. **Impact 5.606**. [paper](https://link.springer.com/article/10.1007%2Fs00521-020-05654-4)
+
+- <a name="DMACM"></a> **(DMACM)** Jin Huang, Tinghua Zhang, Jia Zhu, Weihao Yu, Yong Tang, Yang He. "**A deep embedding model for knowledge graph completion based on attention mechanism**". **Neural Comput. Appl. 2021**. **Impact 5.606**. [paper](https://link.springer.com/article/10.1007%2Fs00521-021-05742-z)
+
+- <a name="NKSGAN"></a> **(NKSGAN)** Hai Liu, Kairong Hu, Fu Lee Wang, Tianyong Hao. "**Correction to: Aggregating neighborhood information for negative sampling for knowledge graph embedding**". **Neural Comput. Appl. 2021**. **Impact 5.606**. [paper](https://link.springer.com/article/10.1007%2Fs00521-020-04940-5)
+
+- <a name="SD-GAT"></a> **(SD-GAT)** Xue Zhou, Bei Hui, Lizong Zhang, Kexi Ji. "**A structure distinguishable graph attention network for knowledge base completion**". **Neural Comput. Appl. 2021**. **Impact 5.606**. [paper](https://link.springer.com/article/10.1007%2Fs00521-021-06221-1)
+
+##### Ad Hoc Networks
+
+- <a name="TRFR"></a> **(TRFR)** Yao Zhang, Hengpeng Xu, Xu Zhang, Xingxing Wu, Zhenglu Yang. "**TRFR: A ternary relation link prediction framework on Knowledge graphs**". **Ad Hoc Networks 2021**. **Impact 4.111**. [paper](https://www.sciencedirect.com/science/article/abs/pii/S1570870520307319?via%3Dihub) 
 
 #### Conference
 
@@ -1480,6 +1538,48 @@ Thanks for your attention and kind words! We will update KGE later.
 
 - <a name="NIC"></a> **(NIC)** Kai Wang, Yu Liu, Quan Z. Sheng. "**Neighborhood Intervention Consistency: Measuring Confidence for Knowledge Graph Link Prediction**". **IJCAI 2021**. [paper](https://www.ijcai.org/proceedings/2021/288)
 
+##### EMNLP
+
+- <a name="BiQUE"></a> **(BiQUE)** Jia Guo, Stanley Kok. "**BiQUE: Biquaternionic Embeddings of Knowledge Graphs**". **EMNLP 2021**. [paper](https://aclanthology.org/2021.emnlp-main.657/)
+
+- <a name="C3"></a> **(C3)** Bo Ouyang, Wenbing Huang, Runfa Chen, Zhixing Tan, Yang Liu, Maosong Sun, Jihong Zhu. "**Knowledge Representation Learning with Contrastive Completion Coding**". **EMNLP (Findings) 2021**. [paper](https://aclanthology.org/2021.findings-emnlp.263/)
+
+- <a name="CET"></a> **(CET)** Weiran Pan, Wei Wei, Xian-Ling Mao. "**Context-aware Entity Typing in Knowledge Graphs**". **EMNLP (Findings) 2021**. [paper](https://aclanthology.org/2021.findings-emnlp.193/)
+
+- <a name="DataCollection"></a> **(DataCollection)** Kenneth Church, Yuchen Bian. "**Data Collection vs. Knowledge Graph Completion: What is Needed to Improve Coverage?**". **EMNLP 2021**. [paper](https://aclanthology.org/2021.emnlp-main.501/)
+
+- <a name="EventKE"></a> **(EventKE)** Zixuan Zhang, Hongwei Wang, Han Zhao, Hanghang Tong, Heng Ji. "**EventKE: Event-Enhanced Knowledge Graph Embedding**". **EMNLP (Findings) 2021**. [paper](https://aclanthology.org/2021.findings-emnlp.120/)
+
+- <a name="FieldE"></a> **(FieldE)** Mojtaba Nayyeri, Chengjin Xu, Franca Hoffmann, Mirza Mohtashim Alam, Jens Lehmann, Sahar Vahdati. "**Knowledge Graph Representation Learning using Ordinary Differential Equations**". **EMNLP 2021**. [paper](https://aclanthology.org/2021.emnlp-main.750/)
+
+- <a name="HBE"></a> **(HBE)** Zhe Pan, Peng Wang. "**Hyperbolic Hierarchy-Aware Knowledge Graph Embedding for Link Prediction**". **EMNLP (Findings) 2021**. [paper](https://aclanthology.org/2021.findings-emnlp.251/)
+
+- <a name="HittER"></a> **(HittER)** Sanxing Chen, Xiaodong Liu, Jianfeng Gao, Jian Jiao, Ruofei Zhang, Yangfeng Ji. "**HittER: Hierarchical Transformers for Knowledge Graph Embeddings**". **EMNLP 2021**. [paper](https://aclanthology.org/2021.emnlp-main.812/)
+
+- <a name="KGBiasDetec"></a> **(KGBiasDetec)** Daphna Keidar, Mian Zhong, Ce Zhang, Yash Raj Shrestha, Bibek Paudel. "**Towards Automatic Bias Detection in Knowledge Graphs**". **EMNLP (Findings) 2021**. [paper](https://aclanthology.org/2021.findings-emnlp.321/)
+
+- <a name="KGE+AT"></a> **(KGE+AT)** Jinfa Yang, Yongjie Shi, Xin Tong, Robin Wang, Taiyan Chen, Xianghua Ying. "**Improving Knowledge Graph Embedding Using Affine Transformations of Entities Corresponding to Each Relation**". **EMNLP (Findings) 2021**. [paper](https://aclanthology.org/2021.findings-emnlp.46/)
+
+- <a name="P-INT"></a> **(P-INT)** Jingwen Xu, Jing Zhang, Xirui Ke, Yuxiao Dong, Hong Chen, Cuiping Li, Yongbin Liu. "**P-INT: A Path-based Interaction Model for Few-shot Knowledge Graph Completion**". **EMNLP (Findings) 2021**. [paper](https://aclanthology.org/2021.findings-emnlp.35/)
+
+- <a name="Pre-Training"></a> **(Pre-Training)** Vid Kocijan, Thomas Lukasiewicz. "**Knowledge Base Completion Meets Transfer Learning**". **EMNLP 2021**. [paper](https://aclanthology.org/2021.emnlp-main.524/)
+
+- <a name="RelDiff"></a> **(RelDiff)** Hitarth Narvala, Graham McDonald, Iadh Ounis. "**RelDiff: Enriching Knowledge Graph Relation Representations for Sensitivity Classification**". **EMNLP (Findings) 2021**. [paper](https://aclanthology.org/2021.findings-emnlp.311/)
+
+- <a name="RotL"></a> **(RotL)** Kai Wang, Yu Liu, Dan Lin, Michael Sheng. "**Hyperbolic Geometry is Not Necessary: Lightweight Euclidean-Based Models for Low-Dimensional Knowledge Graph Embeddings**". **EMNLP (Findings) 2021**. [paper](https://aclanthology.org/2021.findings-emnlp.42/)
+
+- <a name="SFBR"></a> **(SFBR)** Zongwei Liang, Junan Yang, Hui Liu, Ke-Ju Huang. "**A Semantic Filter Based on Relations for Knowledge Graph Completion**". **EMNLP 2021**. [paper](https://aclanthology.org/2021.emnlp-main.625/)
+
+- <a name="TANGO"></a> **(TANGO)** Zhen Han, Zifeng Ding, Yunpu Ma, Yujia Gu, Volker Tresp. "**Learning Neural Ordinary Equations for Forecasting Future Links on Temporal Knowledge Graphs**". **EMNLP 2021**. [paper](https://aclanthology.org/2021.emnlp-main.658/)
+
+- <a name="TEA-GNN"></a> **(TEA-GNN)** Chengjin Xu, Fenglong Su, Jens Lehmann. "**Time-aware Graph Neural Network for Entity Alignment between Temporal Knowledge Graphs**". **EMNLP 2021**. [paper](https://aclanthology.org/2021.emnlp-main.709/)
+
+- <a name="TEE"></a> **(TEE)** Zhen Han, Gengyuan Zhang, Yunpu Ma, Volker Tresp. "**Time-dependent Entity Embedding is not All You Need: A Re-evaluation of Temporal Knowledge Graph Completion Models under a Unified Framework**". **EMNLP 2021**. [paper](https://aclanthology.org/2021.emnlp-main.639/)
+
+- <a name="TITer"></a> **(TITer)** Haohai Sun, Jialun Zhong, Yunpu Ma, Zhen Han, Kun He. "**TimeTraveler: Reinforcement Learning for Temporal Knowledge Graph Forecasting**". **EMNLP 2021**. [paper](https://aclanthology.org/2021.emnlp-main.655/)
+
+- <a name="UniKER"></a> **(UniKER)** Kewei Cheng, Ziqing Yang, Ming Zhang, Yizhou Sun. "**UniKER: A Unified Framework for Combining Embedding and Definite Horn Rule Reasoning for Knowledge Graph Inference**". **EMNLP 2021**. [paper](https://aclanthology.org/2021.emnlp-main.769/)
+
 ##### NAACL
 
 - <a name="BEUrRE"></a> **(BEUrRE)** Xuelu Chen, Michael Boratko, Muhao Chen, Shib Sankar Dasgupta, Xiang Lorraine Li, Andrew McCallum. "**Probabilistic Box Embeddings for Uncertain Knowledge Graph Reasoning**". **NAACL-HLT 2021**. [paper](https://www.aclweb.org/anthology/2021.naacl-main.68/) [code](https://github.com/stasl0217/beurre)
@@ -1510,17 +1610,39 @@ Thanks for your attention and kind words! We will update KGE later.
 
 - <a name="GANA"></a> **(GANA)** Guanglin Niu, Yang Li, Chengguang Tang, Ruiying Geng, Jian Dai, Qiao Liu, Hao Wang, Jian Sun, Fei Huang, Luo Si. "**Relational Learning with Gated and Attentive Neighbor Aggregator for Few-Shot Knowledge Graph Completion**". **SIGIR 2021**. [paper](https://dl.acm.org/doi/10.1145/3404835.3462925)
 
-- <a name="META-KGE"></a> **(META-KGE)** Chanyoung Chung, Joyce Jiyoung Whang. "**Knowledge Graph Embedding via Metagraph Learning**". **SIGIR 2021**.
+- <a name="META-KGE"></a> **(META-KGE)** Chanyoung Chung, Joyce Jiyoung Whang. "**Knowledge Graph Embedding via Metagraph Learning**". **SIGIR 2021**. [paper](https://dl.acm.org/doi/10.1145/3404835.3463072)
 
-- <a name="MetaP"></a> **(MetaP)** Zhiyi Jiang, Jianliang Gao, Xinqi Lv. "**MetaP: Meta Pattern Learning for One-Shot Knowledge Graph Completion**". **SIGIR 2021**.
+- <a name="MetaP"></a> **(MetaP)** Zhiyi Jiang, Jianliang Gao, Xinqi Lv. "**MetaP: Meta Pattern Learning for One-Shot Knowledge Graph Completion**". **SIGIR 2021**. [paper](https://dl.acm.org/doi/10.1145/3404835.3463086)
 
 - <a name="RE-GCN"></a> **(RE-GCN)** Zixuan Li, Xiaolong Jin, Wei Li, Saiping Guan, Jiafeng Guo, Huawei Shen, Yuanzhuo Wang, Xueqi Cheng. "**Temporal Knowledge Graph Reasoning Based on Evolutional Representation Learning**". **SIGIR 2021**. [paper](https://dl.acm.org/doi/10.1145/3404835.3462963) [code](https://github.com/Lee-zix/RE-GCN)
 
-- <a name="TIE"></a> **(TIE)** Jiapeng Wu, Yishi Xu, Yingxue Zhang, Chen Ma, Mark Coates, Jackie Chi Kit Cheung. "**TIE: A Framework for Embedding-based Incremental Temporal Knowledge Graph Completion**". **SIGIR 2021**. [code](https://github.com/JiapengWu/Time-Aware-Incremental-Embedding)
+- <a name="TIE"></a> **(TIE)** Jiapeng Wu, Yishi Xu, Yingxue Zhang, Chen Ma, Mark Coates, Jackie Chi Kit Cheung. "**TIE: A Framework for Embedding-based Incremental Temporal Knowledge Graph Completion**". **SIGIR 2021**. [paper](https://dl.acm.org/doi/10.1145/3404835.3462961) [code](https://github.com/JiapengWu/Time-Aware-Incremental-Embedding)
 
 ##### ICDE
 
 - <a name="ERAS"></a> **(ERAS)** Shimin Di, Quanming Yao, Yongqi Zhang, Lei Chen. "**Efficient Relation-aware Scoring Function Search for Knowledge Graph Embedding**". **ICDE 2021**. [paper](https://ieeexplore.ieee.org/document/9458750)
+
+##### CIKM
+
+- <a name="CyclE"></a> **(CyclE)** Han Yang, Leilei Zhang, Bingning Wang, Ting Yao, Junfei Liu. "**Cycle or Minkowski: Which is More Appropriate for Knowledge Graph Embedding**". **CIKM 2021**. [paper](https://dl.acm.org/doi/10.1145/3459637.3482245)
+
+- <a name="DisenKGAT"></a> **(DisenKGAT)** Junkang Wu, Wentao Shi, Xuezhi Cao, Jiawei Chen, Wenqiang Lei, Fuzheng Zhang, Wei Wu, Xiangnan He. "**DisenKGAT: Knowledge Graph Embedding with Disentangled Graph Attention Network**". **CIKM 2021**. [paper](https://dl.acm.org/doi/10.1145/3459637.3482424)
+
+- <a name="DT-GCN"></a> **(DT-GCN)** Yuxin Shen, Zhao Li, Xin Wang, Jianxin Li, Xiaowang Zhang. "**DataType-Aware Knowledge Graph Representation Learning in Hyperbolic Space**". **CIKM 2021**. [paper](https://dl.acm.org/doi/10.1145/3459637.3482421)
+
+- <a name="FKGE"></a> **(FKGE)** Hao Peng, Haoran Li, Yangqiu Song, Vincent W. Zheng, Jianxin Li. "**Differentially Private Federated Knowledge Graphs Embedding**". **CIKM 2021**. [paper](https://dl.acm.org/doi/10.1145/3459637.3482252)
+
+- <a name="GrpKG"></a> **(GrpKG)** Han Yang, Junfei Liu. "**Knowledge Graph Representation Learning as Groupoid: Unifying TransE, RotatE, QuatE, ComplEx**". **CIKM 2021**. [paper](https://dl.acm.org/doi/10.1145/3459637.3482442)
+
+- <a name="HopfE"></a> **(HopfE)** Anson Bastos, Kuldeep Singh, Abhishek Nadgeri, Saeedeh Shekarpour, Isaiah Onando Mulang, Johannes Hoffart. "**HopfE: Knowledge Graph Representation Learning using Inverse Hopf Fibrations**". **CIKM 2021**. [paper](https://dl.acm.org/doi/10.1145/3459637.3482263)
+
+- <a name="HRFN"></a> **(HRFN)** Yufeng Zhang, Weiqing Wang, Wei Chen, Jiajie Xu, An Liu, Lei Zhao. "**Meta-Learning Based Hyper-Relation Feature Modeling for Out-of-Knowledge-Base Embedding**". **CIKM 2021**. [paper](https://dl.acm.org/doi/10.1145/3459637.3482367)
+
+- <a name="LightKG"></a> **(LightKG)** Haoyu Wang, Yaqing Wang, Defu Lian, Jing Gao. "**A Lightweight Knowledge Graph Embedding Framework for Efficient Inference and Storage**".  **CIKM 2021**. [paper](https://dl.acm.org/doi/10.1145/3459637.3482224)
+
+- <a name="REFORM"></a> **(REFORM)** Song Wang, Xiao Huang, Chen Chen, Liang Wu, Jundong Li. "**REFORM: Error-Aware Few-Shot Knowledge Graph Completion**". **CIKM 2021**. [paper](https://dl.acm.org/doi/10.1145/3459637.3482470)
+
+- <a name="THML"></a> **(THML)** Shangfei Zheng, Wei Chen, Pengpeng Zhao, An Liu, Junhua Fang, Lei Zhao. "**When Hardness Makes a Difference: Multi-Hop Knowledge Graph Reasoning over Few-Shot Relations**. **CIKM 2021**. [paper](https://dl.acm.org/doi/10.1145/3459637.3482402)
 
 ##### WSDM
 
@@ -1535,6 +1657,12 @@ Thanks for your attention and kind words! We will update KGE later.
 - <a name="ST-ConvKB"></a> **(ST-ConvKB)** Jiasheng Zhang, Shuang Liang, Zhiyi Deng, Jie Shao. "**Spatial-Temporal Attention Network for Temporal Knowledge Graph Completion**". **DASFAA 2021**. [paper](https://link.springer.com/chapter/10.1007%2F978-3-030-73194-6_15)
 
 - <a name="TransMTL"></a> **(TransMTL)** Jiaheng Dou, Bing Tian, Yong Zhang, Chunxiao Xing. "**A Novel Embedding Model for Knowledge Graph Completion Based on Multi-Task Learning**". **DASFAA 2021**. [paper](https://link.springer.com/chapter/10.1007%2F978-3-030-73194-6_17)
+
+##### ECML-PKDD
+
+- <a name="PaGNN"></a> **(PaGNN)** Shuo Yang, Binbin Hu, Zhiqiang Zhang, Wang Sun, Yang Wang, Jun Zhou, Hongyu Shan, Yuetian Cao, Borui Ye, Yanming Fang, Quan Yu. "**Inductive Link Prediction with Interactive Structure Learning on Attributed Graph**". **ECML/PKDD 2021**. [paper](https://link.springer.com/chapter/10.1007%2F978-3-030-86520-7_24)
+
+- <a name="WD/MMD"></a> **(WD/MMD)** Luu Huu Phuc, Koh Takeuchi, Seiji Okajima, Arseny Tolmachev, Tomoyoshi Takebayashi, Koji Maruhashi, Hisashi Kashima. "**Inter-domain Multi-relational Link Prediction**". **ECML/PKDD 2021**. [paper](https://link.springer.com/chapter/10.1007%2F978-3-030-86520-7_18)
 
 ##### ESWC
 
