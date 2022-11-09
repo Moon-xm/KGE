@@ -1970,6 +1970,8 @@ Thanks for your attention and kind words! We will update KGE later.
 
 - <a name="KGT5"></a> **(KGT5)** Apoorv Saxena, Adrian Kochsiek, Rainer Gemulla. "**Sequence-to-Sequence Knowledge Graph Completion and Question Answering**". **ACL 2022**. [paper](https://aclanthology.org/2022.acl-long.201/) [code](https://github.com/apoorvumang/kgt5)
 
+- <a name="KGTuner"></a> **(KGTuner)** Yongqi Zhang, Zhanke Zhou, Quanming Yao, Yong Li. "**Efficient Hyper-parameter Search for Knowledge Graph Embedding**". **ACL 2022**. [paper](https://aclanthology.org/2022.acl-long.194/) [code](https://github.com/AutoML-Research/KGTuner)
+
 - <a name="MEKER"></a> **(MEKER)** Viktoria Chekalina, Anton Razzhigaev, Albert Sayapin, Evgeny Frolov, Alexander Panchenko. "**MEKER: Memory Efficient Knowledge Embedding Representation for Link Prediction and Question Answering**". **ACL (student) 2022**. [paper](https://aclanthology.org/2022.acl-srw.27/)
 
 - <a name="PKGC"></a> **(PKGC)** Xin Lv, Yankai Lin, Yixin Cao, Lei Hou, Juanzi Li, Zhiyuan Liu, Peng Li, Jie Zhou. "**Do Pre-trained Models Benefit Knowledge Graph Completion? A Reliable Evaluation and a Reasonable Approach**". **ACL (Findings) 2022**. [paper](https://aclanthology.org/2022.findings-acl.282/) [code](https://github.com/thu-keg/pkgc)
@@ -1980,17 +1982,15 @@ Thanks for your attention and kind words! We will update KGE later.
 
 - <a name="SS-AGA"></a> **(SS-AGA)** Zijie Huang, Zheng Li, Haoming Jiang, Tianyu Cao, Hanqing Lu, Bing Yin, Karthik Subbian, Yizhou Sun, Wei Wang. "**Multilingual Knowledge Graph Completion with Self-Supervised Adaptive Graph Alignment**". **ACL 2022**. [paper](https://aclanthology.org/2022.acl-long.36/) [code](https://github.com/amzn/ss-aga-kgc)
 
-- <a name="KGTuner"></a> **(KGTuner)** Yongqi Zhang, Zhanke Zhou, Quanming Yao, Yong Li. "**Efficient Hyper-parameter Search for Knowledge Graph Embedding**". **ACL 2022**. [paper](https://aclanthology.org/2022.acl-long.194/) [code](https://github.com/AutoML-Research/KGTuner)
-
 ##### ICML
 
-- <a name="NSloss"></a> **(NSloss)** Hidetaka Kamigaito, Katsuhiko Hayashiu. "**Comprehensive Analysis of Negative Sampling in Knowledge Graph Representation Learning**". **ICML 2022**. [paper](https://proceedings.mlr.press/v162/kamigaito22a.html)
+- <a name="CBR-SUBG"></a> **(CBR-SUBG)** Rajarshi Das, Ameya Godbole, Ankita Naik, Elliot Tower, Manzil Zaheer, Robin Jia, Hannaneh Hajishirzi, Andrew McCallum. "**Knowledge Base Question Answering by Case-based Reasoning over Subgraphs**". **ICML 2022**. [paper](https://proceedings.mlr.press/v162/das22a.html)
 
 - <a name="GNN-QE"></a> **(GNN-QE)** Zhaocheng Zhu, Mikhail Galkin, Zuobai Zhang, Jian Tang. "**Neural-Symbolic Models for Logical Queries on Knowledge Graphs**". **ICML 2022**. [paper](https://proceedings.mlr.press/v162/zhu22c.html)
 
 - <a name="HousE"></a> **(HousE)** Rui Li, Jianan Zhao, Chaozhuo Li, Di He, Yiqi Wang, Yuming Liu, Hao Sun, Senzhang Wang, Weiwei Deng, Yanming Shen, Xing Xie, Qi Zhang. "**HousE: Knowledge Graph Embedding with Householder Parameterization**". **ICML 2022**. [paper](https://proceedings.mlr.press/v162/li22ab.html) [code](https://github.com/rui9812/HousE)
-- <a name="CBR-SUBG"></a> **CBR-SUBG** Rajarshi Das, Ameya Godbole, Ankita Naik, Elliot Tower, Manzil Zaheer, Robin Jia, Hannaneh Hajishirzi, Andrew McCallum. "**Knowledge Base Question Answering by Case-based Reasoning over Subgraphs
-**". **ICML 2022**. [paper](https://proceedings.mlr.press/v162/das22a.html)
+
+- <a name="NSloss"></a> **(NSloss)** Hidetaka Kamigaito, Katsuhiko Hayashiu. "**Comprehensive Analysis of Negative Sampling in Knowledge Graph Representation Learning**". **ICML 2022**. [paper](https://proceedings.mlr.press/v162/kamigaito22a.html)
 
 ##### IJCAI
 
@@ -2044,7 +2044,7 @@ Thanks for your attention and kind words! We will update KGE later.
 
 - <a name="Query2Particles"></a> **(Query2Particles)** Jiaxin Bai, Zihao Wang, Hongming Zhang, Yangqiu Song. "**Query2Particles: Knowledge Graph Reasoning with Particle Embeddings**". **NAACL-HLT (Findings) 2022**. [paper](https://aclanthology.org/2022.findings-naacl.207/) [code](https://github.com/hkust-knowcomp/query2particles)
 
-- <a name="StATIK"></a> **(StATIK)** Elan Markowitz, Keshav Balasubramanian, Mehrnoosh Mirtaheri, Murali Annavaram, Aram Galstyan, Greg Ver Steeg. "*StATIK: Structure and Text for Inductive Knowledge Graph Completion**". **NAACL-HLT (Findings) 2022**. [paper](https://aclanthology.org/2022.findings-naacl.46/)
+- <a name="StATIK"></a> **(StATIK)** Elan Markowitz, Keshav Balasubramanian, Mehrnoosh Mirtaheri, Murali Annavaram, Aram Galstyan, Greg Ver Steeg. "**StATIK: Structure and Text for Inductive Knowledge Graph Completion**". **NAACL-HLT (Findings) 2022**. [paper](https://aclanthology.org/2022.findings-naacl.46/)
 
 ##### SIGMOD
 
